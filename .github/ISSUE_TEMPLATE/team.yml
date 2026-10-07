@@ -1,0 +1,34 @@
+name: "🏠 New team"
+description: Ask for your team's repo (Week 3). One person per team.
+title: "Team: "
+labels: ["team"]
+body:
+  - type: markdown
+    attributes:
+      value: "Title example: `Team: spot-the-rip` (lowercase letters and dashes, no spaces). Double-check every handle: a misspelled handle gets no invite."
+  - type: input
+    id: team
+    attributes:
+      label: Team name
+      placeholder: spot-the-rip
+    validations:
+      required: true
+  - type: textarea
+    id: members
+    attributes:
+      label: Members (GitHub handles)
+      placeholder: "@ballena-dev, @rip-spotter, @ojochal-builds"
+    validations:
+      required: true
+  - type: input
+    id: sentence
+    attributes:
+      label: Our one sentence
+      placeholder: Spot the Rip is a game that helps kids at Dominical learn to see rip currents before they swim.
+    validations:
+      required: true
+  - type: input
+    id: persona
+    attributes:
+      label: Our persona
+      placeholder: Mateo, 12, surfs at Dominical on weekends

@@ -21,27 +21,9 @@ Last fixes, then hands off. After the freeze, what's on GitHub is what you show.
 - [ ] Last commit before the freeze
 - [ ] Demo Day: 3-minute demo, every builder on stage
 
-## Builder instructions
+## 🛠️ Your assignment
 
-### STEP 1 · Bug-only week 🐛
-
-Only work on bug issues. New idea? Add it to README "What's next".
-
-### STEP 2 · Final push 🚀
-
-By **Thu 10 Dec, 8 pm**: `git pull` → `git add .` → `git commit -m "Final version"` → `git push`. Check the live link.
-
-### STEP 3 · Demo Day 🎤
-
-Arrive 30 minutes early. Open the live link and `final.pdf` before your turn. Breathe. You built this.
-
-## ✅ Done when
-
-- [ ] Pushed before the freeze
-- [ ] Presented on Demo Day
-
-¡Hecho en Osa! 🌴
-
+Step-by-step instructions, Done when and Stuck? table: **[assignment.md](assignment.md)**
 
 ---
 

@@ -10,7 +10,7 @@ From "what's a terminal?" to a real product, live on the internet, in 8 weeks.
 
 1. **Monday:** this week's page and videos go live here.
 2. **Saturday Build Hour** at Bitcoin Jungle: workshops, help, mentors.
-3. **Your mission:** step-by-step work at home, about 2 hours.
+3. **Your assignment:** step-by-step work at home, about 2 hours, in each week's `assignment.md`.
 4. **Sunday 8 pm:** post your weekly update. Weeks 1–2 go on your Wall issue in hello-osa; Weeks 3–8 go on your team issue here.
 
 ## The 8 weeks
@@ -57,13 +57,10 @@ The Stack levels are about how your project runs. Only climb when your idea need
 | Other people adding data from their phones | Level 2 · Shared | Week 5–6, after v1.0 |
 | Anyone opening it from a link or QR code | Level 3 · Public | You're already here from Week 3 |
 
-## The 5 rules
+## Rules and help
 
-1. **Do it scared.**
-2. **The 10-minute rule.** Stuck for 10 minutes? Ask, with a screenshot, what you tried and what you expected.
-3. **No AI until Week 4.**
-4. **Explain every line.**
-5. **Stay private.** First names or handles only, your noreply email, no faces, phone numbers or keys in your code.
+- 📏 **[RULES.md](RULES.md)**: the 5 rules, plus roadmap, interview, team and AI rules
+- 🆘 **[STUCK.md](STUCK.md)**: what to do when something breaks
 
 ## Worksheets
 

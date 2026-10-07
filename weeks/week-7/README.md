@@ -21,45 +21,9 @@ Your product works. Now you tell its story. You finish your README, make a short
 - [ ] Demo rehearsed with a timer, under 3 minutes
 - [ ] Every builder speaks in the demo
 
-## Builder instructions
+## 🛠️ Your assignment
 
-### STEP 1 · Finish the README 📄
-
-Edit on GitHub (✏️). Fill each empty section. The "Tools we used" section lists HTML/CSS/JS, any libraries, and the AI tool plus what it helped with.
-
-### STEP 2 · 5 slides 🖼️
-
-1. Our person (photo of the persona card, no faces)
-2. Their problem, in their words
-3. What we built (one sentence)
-4. Live demo
-5. What we learned and what's next
-
-Export as PDF → name it `final.pdf` → drag into `presentation/` → commit and push.
-
-### STEP 3 · Rehearse ⏱️
-
-Timer on. Each builder takes a part. Run it twice. Cut anything over 3 minutes.
-
-### STEP 4 · Post your update 📣
-
-Link to `final.pdf` and who says what.
-
-## ✅ Done when
-
-- [ ] README complete
-- [ ] `final.pdf` in `presentation/`
-- [ ] Two timed rehearsals
-
-## 🆘 Stuck?
-
-| What you see | What to do |
-| --- | --- |
-| PDF over 10 MB | Export with smaller images, or use fewer photos. |
-| Someone doesn't want to speak | They run the demo clicks. Everyone still has a role. |
-
-¡Hecho en Osa! 🌴
-
+Step-by-step instructions, Done when and Stuck? table: **[assignment.md](assignment.md)**
 
 ---
 

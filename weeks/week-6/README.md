@@ -21,48 +21,9 @@ No talks this week. You build, test and fix with your mentor in the room. By Sun
 - [ ] One real user test done
 - [ ] Each builder merged at least one pull request
 
-## Builder instructions
+## 🛠️ Your assignment
 
-### STEP 1 · Pick an issue 🎫
-
-Assign yourself on GitHub (right side → **Assignees**). One person per issue.
-
-### STEP 2 · Branch, build, pull request 🌿
-
-`git pull` → `git checkout -b screen-name` → build (with AI if you like) → test → commit → push → pull request with `Fixes #n` → mentor reviews → merge.
-
-### STEP 3 · Test like a stranger 🧪
-
-Open your live link on a phone. Go through every line in TRD 6. Tick the ones that work in `TRD.md`.
-
-### STEP 4 · User test 👀
-
-Hand your phone to someone you interviewed. Say nothing. Watch. Write down where they got stuck.
-
-### STEP 5 · Log bugs 🐛
-
-**Issues → New issue → 🐛 Bug**: what I did / what I expected / what happened. Label `stuck` if you need a mentor.
-
-### STEP 6 · Post your update 📣
-
-Live link + how many tests pass, e.g. `7 of 9 ✅`.
-
-## ✅ Done when
-
-- [ ] All screens merged
-- [ ] Tests ticked or logged as bugs
-- [ ] User test done
-
-## 🆘 Stuck?
-
-| What you see | What to do |
-| --- | --- |
-| Works on laptop, broken on phone | Ask the AI: `Make this page fit a phone screen.` Then retest. |
-| Pull request says "conflicts" | Click **Resolve conflicts**, keep the right lines, delete the `<<<<` `====` `>>>>` markers, **Mark as resolved**. |
-| Running out of time | Move the feature to PRD 7. Shipping less is a skill. |
-
-¡Hecho en Osa! 🌴
-
+Step-by-step instructions, Done when and Stuck? table: **[assignment.md](assignment.md)**
 
 ---
 

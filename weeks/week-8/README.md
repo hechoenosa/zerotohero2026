@@ -1,50 +1,48 @@
-# Week 8 · Demo Day
+[← Week 7](../week-7/) · **Week 8 · Code freeze + Demo Day**
 
-**Build Hour:** Sat 12 Dec · **Lead:** All mentors · **Due:** Sat 12 Dec · **Phase:** Deliver
+# Week 8 · Code freeze + Demo Day
 
-> 🚧 Materials coming soon.
+**Code freeze:** Thu 10 Dec, 8 pm · **Demo Day:** Sat 12 Dec, location TBD · **Leads:** Anastasia + all mentors · **Phase:** Deliver
 
-## 🎬 Watch first
+Last fixes, then hands off. After the freeze, what's on GitHub is what you show.
 
-| # | Video | Who | Length |
-|---|---|---|---|
-| 1 | | | |
+> **🎯 Your mission this week**
+>
+> 1. Fix only bugs. No new features.
+> 2. Last push before Thu 10 Dec, 8 pm.
+> 3. Show up on Demo Day and present.
+>
+> **Due:** Thu 10 Dec, 8 pm · **Post on:** your team issue
 
-<!-- Paste each video's link from the locked "Week 8 videos" issue. -->
+## What every team completes
 
-## ✅ What you complete by Sat 12 Dec
+- [ ] Live link works on a phone
+- [ ] README and `final.pdf` final
+- [ ] Last commit before the freeze
+- [ ] Demo Day: 3-minute demo, every builder on stage
 
-- [ ]
+## Builder instructions
 
-## 🛠️ Steps
+### STEP 1 · Bug-only week 🐛
 
-Stuck on one step for more than 10 minutes? Post in the Hackathon group with a screenshot, what you tried, and what you expected to happen.
+Only work on bug issues. New idea? Add it to README "What's next".
 
-### STEP 1 ·
+### STEP 2 · Final push 🚀
 
-## 🏫 No computer at home?
+By **Thu 10 Dec, 8 pm**: `git pull` → `git add .` → `git commit -m "Final version"` → `git push`. Check the live link.
+
+### STEP 3 · Demo Day 🎤
+
+Arrive 30 minutes early. Open the live link and `final.pdf` before your turn. Breathe. You built this.
 
 ## ✅ Done when
 
-- [ ]
+- [ ] Pushed before the freeze
+- [ ] Presented on Demo Day
 
-## 🆘 Stuck?
+¡Hecho en Osa! 🌴
 
-| What you see | What to do |
-|---|---|
-| | |
 
-## 📣 Your weekly update
+---
 
-Post it as a comment on your team issue in zerotohero2026 by Sat 12 Dec.
-
-```
-## Week 8 update
-
-✅ Done:
-🔜 Next:
-🧱 Stuck: (or "nothing")
-🔗 Link:
-```
-
-**¡Hecho en Osa!** 🌴
+[← Week 7](../week-7/) · **Week 8 · Code freeze + Demo Day**

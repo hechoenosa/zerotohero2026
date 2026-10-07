@@ -17,22 +17,51 @@ From "what's a terminal?" to a real product, live on the internet, in 8 weeks.
 
 | Week | Build Hour | Theme | Lead | Phase | Open |
 |---|---|---|---|---|---|
-| [1](weeks/week-1/) | Week of 19 Oct | Your first website | Lee · GitHub setup (mentors help 1-1 in small groups) | Discover | 🔒 |
-| [2](weeks/week-2/) | Sat 31 Oct | Product sense + GitHub practice | Emilie · product sense | Discover | 🔒 |
-| [3](weeks/week-3/) | Sat 7 Nov | Who is it for, and does it fit? | Vitalik · product workshop (persona, fit) | Define | 🔒 |
-| [4](weeks/week-4/) | Sat 14 Nov | Ready for the Vibe Jam | Anastasia · data · Lee · system design + TDD | Develop | 🔒 |
-| [5](weeks/week-5/) | Sat 21 Nov | Vibe Jam | All mentors | Develop | 🔒 |
-| [6](weeks/week-6/) | Sat 28 Nov | Finish | Your team mentor | Test | 🔒 |
-| [7](weeks/week-7/) | Sat 5 Dec | Presentation prep | Your team mentor | Deliver | 🔒 |
-| [8](weeks/week-8/) | Sat 12 Dec | Demo Day | All mentors | Deliver | 🔒 |
+| [1](weeks/week-1/) | Sat 24 Oct | Your first website | Emilie (workshop) · Lee (GitHub setup, mentors help 1-1 in small groups) | Discover | 🔒 |
+| [2](weeks/week-2/) | New day TBC (not Sat 31 Oct) | Product sense + GitHub practice | Vlad · product sense | Discover | 🔒 |
+| [3](weeks/week-3/) | Sat 7 Nov | Your PRD (what we build) | Lee | Define | 🔒 |
+| [4](weeks/week-4/) | Sat 14 Nov | Your TRD + first AI tools | Lee (system design) · Anastasia (data) · Zamir (what AI is, ethics) | Develop | 🔒 |
+| [5](weeks/week-5/) | Sat 21 Nov · VIBE JAM | Prompting + Vibe Jam | Anastasia (prompting) · all mentors at the Jam | Develop | 🔒 |
+| [6](weeks/week-6/) | Sat 28 Nov | Build together | All mentors · coworking, no special programming | Test | 🔒 |
+| [7](weeks/week-7/) | Sat 5 Dec | Presentation prep | Emilie (story) · Lee (README) · team mentors | Deliver | 🔒 |
+| [8](weeks/week-8/) | Code freeze Thu 10 Dec, 8 pm · Demo Day Sat 12 Dec | Code freeze + Demo Day | All mentors | Deliver | 🔒 |
 
-**Code freeze:** Thu 10 Dec, 8 pm · **Demo Day:** Sat 12 Dec
+**Spark Night:** Mon 19 Oct · **Code freeze:** Thu 10 Dec, 8 pm · **Demo Day:** Sat 12 Dec (location TBD)
+
+**Experienced builders** don't follow these weeks. Build on your own and submit a README for your project.
+
+## 🗺️ The roadmap
+
+| Phase | Weeks | The question | What you make | You can't move on until… |
+|---|---|---|---|---|
+| 1. Discover | 1–2 | Who has a real problem? | Interview notes, a persona, a one-sentence idea | You have a real quote from a real person about a real problem |
+| 2. Define | 3 | What exactly are we building, and what are we not building? | Paper drawings, a PRD (written by hand is ok) | Your PRD names ONE thing that must work, finished by the end of Week 3 |
+| 3. Develop | 4–5 | How will we build it? Can we make the ONE thing work? | A TRD and your first AI tools (Week 4), then the first version built with AI at the Vibe Jam, then fixes | The ONE thing works from start to finish, on a phone |
+| 4. Test | 6 | Does it work for someone who isn't us? Improve | 2 user tests, a break-it list, fixes | 2 people outside your team used it, and you fixed the top 3 problems |
+| 5. Deliver | 7–8 | Can we explain it and show it? | README, presentation, a 3-minute demo | The code is frozen and the demo fits in 3 minutes |
+
+### The 3 roadmap rules
+
+1. **Never skip a phase.** A team that builds before talking to people builds the wrong thing beautifully.
+2. **Smaller is faster.** If you're behind, cut scope, not quality. Move things to "NOT building yet."
+3. **Always have something that works.** After Week 5, every push to GitHub should leave the live link working.
+
+### When to level up
+
+The Stack levels are about how your project runs. Only climb when your idea needs it, and only after v1.0 works.
+
+| If your product needs… | Climb to | When |
+|---|---|---|
+| Nothing extra: it works offline | Level 0 · Starter | Everyone starts here |
+| Live info like tides, waves or weather | Level 1 · Live | Week 5, after v1.0 |
+| Other people adding data from their phones | Level 2 · Shared | Week 5–6, after v1.0 |
+| Anyone opening it from a link or QR code | Level 3 · Public | You're already here from Week 3 |
 
 ## The 5 rules
 
 1. **Do it scared.**
 2. **The 10-minute rule.** Stuck for 10 minutes? Ask, with a screenshot, what you tried and what you expected.
-3. **No AI until the Vibe Jam.**
+3. **No AI until Week 4.**
 4. **Explain every line.**
 5. **Stay private.** First names or handles only, your noreply email, no faces, phone numbers or keys in your code.
 

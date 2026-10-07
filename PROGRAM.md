@@ -24,7 +24,7 @@ You set up GitHub, put your first website online, and write down your idea. Then
 
 - **You make:** your first website, `my-idea.md`, `discover.md` with interview notes
 - **On GitHub:** your account, your first commits, your first issue
-- **Skills:** HTML, git basics, the terminal, your first JavaScript
+- **Skills:** GitHub setup (Week 1), VS Code (Week 2)
 - **You can move on when:** you have a real quote from a real person about a real problem
 
 ### 2 · Define · Week 3

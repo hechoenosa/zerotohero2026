@@ -8,7 +8,7 @@ Hecho en Osa · Zero to Hero 2026 takes builders aged 11–17 from "what's a ter
 
 ## The idea behind it
 
-Most first projects fail the same way: someone builds a beautiful thing nobody needs. So we split the 8 weeks into two halves, drawn as two diamonds.
+Most first projects fail the same way: someone builds a beautiful thing nobody needs, or it breaks and one doesn't know why because AI built it. So we split the 8 weeks into two halves, drawn as two diamonds with a Vibe Jam in the middle. 
 
 - **Diamond 1 · the problem.** First you go wide and talk to real people. Then you narrow down to ONE problem worth solving.
 - **Diamond 2 · the solution.** First you go wide again and try ways to build it. Then you narrow down to one product that works, and you show it.

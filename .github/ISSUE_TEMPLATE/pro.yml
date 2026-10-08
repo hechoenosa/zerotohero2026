@@ -1,0 +1,29 @@
+name: "🚀 Pro project"
+description: Pro builders, ask for your project repo. One person per team.
+title: "Pro: "
+labels: ["pro"]
+body:
+  - type: markdown
+    attributes:
+      value: "Title example: `Pro: spot-the-rip` (lowercase letters and dashes, no spaces). We create `hechoenosa/spot-the-rip` from project-template and invite everyone below. Double-check every handle: a misspelled handle gets no invite."
+  - type: input
+    id: name
+    attributes:
+      label: Repo name
+      placeholder: spot-the-rip
+    validations:
+      required: true
+  - type: textarea
+    id: team
+    attributes:
+      label: Team (GitHub handles)
+      placeholder: "@ballena-dev, @rip-spotter"
+    validations:
+      required: true
+  - type: input
+    id: sentence
+    attributes:
+      label: One sentence
+      placeholder: Spot the Rip is a game that helps kids at Dominical learn to see rip currents before they swim.
+    validations:
+      required: true

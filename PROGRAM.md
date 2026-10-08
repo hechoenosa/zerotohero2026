@@ -115,7 +115,9 @@ Mentors give you questions, not answers. They won't build it for you. That's the
 
 ## Already know how to code?
 
-**Experienced builders** don't follow these weeks. Build on your own and submit a README for your project.
+If you already have a GitHub account with your own code on it, and VS Code or another code editor installed, you're a **🚀 Pro builder**. You don't follow the weekly assignments. Ask for your project repo, made from project-template, come to any Build Hour or workshop you like, and submit by Thu 10 Dec, 8 pm: [SUBMIT.md](SUBMIT.md).
+
+Not sure which one you are? Open the [Week 1 assignment](weeks/week-1/assignment.md). If most of it is new, start with Zero to Hero.
 
 ## Rules and help
 

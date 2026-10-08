@@ -6,6 +6,19 @@ From "what's a terminal?" to a real product, live on the internet, in 8 weeks.
 
 **New here? Read [how Zero to Hero works](PROGRAM.md)** · [Rules](RULES.md) · [Stuck?](STUCK.md)
 
+## 🤔 Zero to Hero or Pro?
+
+Open the [Week 1 assignment](weeks/week-1/assignment.md) and skim the 15 steps.
+
+| If… | You're in |
+|---|---|
+| Most of it is new to you | **🌱 Zero to Hero.** Follow the 8 weeks, one assignment at a time. Mentors check your progress every week. |
+| You already have a GitHub account with your own code on it, and VS Code or another code editor installed | **🚀 Pro.** Skip the weekly assignments and build your own project. |
+
+**Pro builders:** come to any Build Hour or workshop you like. Nobody checks your weekly assignments. Ask for your project repo (made from project-template), build it your way, and submit by **Thu 10 Dec, 8 pm**: **[Pro builders, start here](SUBMIT.md)**.
+
+Not sure? Start with Zero to Hero.
+
 ## 👉 This week: [Week 1 · Your first website](weeks/week-1/)
 
 <!-- Organisers: every Sunday, run mentors/scripts/release-week.sh N. It moves this link and ticks the table. -->
@@ -32,7 +45,6 @@ From "what's a terminal?" to a real product, live on the internet, in 8 weeks.
 
 **Spark Night:** Mon 19 Oct · **Code freeze:** Thu 10 Dec, 8 pm · **Demo Day:** Sat 12 Dec (location TBD)
 
-**Experienced builders** don't follow these weeks. Build on your own and submit a README for your project.
 
 ## 🗺️ The roadmap
 

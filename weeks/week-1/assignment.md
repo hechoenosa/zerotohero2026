@@ -44,7 +44,7 @@ Your projects will be public, so your real email must stay hidden.
 
 ## STEP 4 · Install VS Code 💻
 
-🎬 [Watch Step 4 (Mac, 30 sec)](https://hechoenosa.github.io/zerotohero2026/weeks/week-1/videos/mac-step-04.mp4)
+🎬 Watch Step 4: [🍎 Mac](https://hechoenosa.github.io/zerotohero2026/weeks/week-1/videos/mac-step-04.mp4) · [🪟 Windows](https://hechoenosa.github.io/zerotohero2026/weeks/week-1/videos/win-step-04.mp4)
 
 VS Code is where you'll write code. Go to code.visualstudio.com and click the big **Download** button.
 
@@ -66,7 +66,7 @@ VS Code is where you'll write code. Go to code.visualstudio.com and click the bi
 
 ## STEP 5 · Install Git 🌳
 
-🎬 [Watch Step 5 (Mac, 30 sec)](https://hechoenosa.github.io/zerotohero2026/weeks/week-1/videos/mac-step-05.mp4)
+🎬 Watch Step 5: [🍎 Mac](https://hechoenosa.github.io/zerotohero2026/weeks/week-1/videos/mac-step-05.mp4) · [🪟 Windows](https://hechoenosa.github.io/zerotohero2026/weeks/week-1/videos/win-step-05.mp4)
 
 Git is a time machine for your code. It saves every version so you can always go back.
 
@@ -122,7 +122,7 @@ You now have your own repo at github.com/your-handle/hello-osa.
 
 ## STEP 8 · Bring it to your computer 📥
 
-🎬 [Watch Step 8 (Mac, 30 sec)](https://hechoenosa.github.io/zerotohero2026/weeks/week-1/videos/mac-step-08.mp4)
+🎬 Watch Step 8: [🍎 Mac](https://hechoenosa.github.io/zerotohero2026/weeks/week-1/videos/mac-step-08.mp4) · [🪟 Windows](https://hechoenosa.github.io/zerotohero2026/weeks/week-1/videos/win-step-08.mp4)
 
 1. In VS Code, open the Command Palette:
    - 🍎 Mac: **Cmd + Shift + P**
@@ -138,7 +138,7 @@ You'll see `README.md` and `index.html` on the left.
 
 ## STEP 9 · Make it yours ✏️
 
-🎬 [Watch Step 9 (Mac, 30 sec)](https://hechoenosa.github.io/zerotohero2026/weeks/week-1/videos/mac-step-09.mp4)
+🎬 Watch Step 9: [🍎 Mac](https://hechoenosa.github.io/zerotohero2026/weeks/week-1/videos/mac-step-09.mp4) · [🪟 Windows](https://hechoenosa.github.io/zerotohero2026/weeks/week-1/videos/win-step-09.mp4)
 
 1. Click `index.html` on the left
 2. Find the three lines marked ✏️ and change them:
@@ -161,7 +161,7 @@ That confetti? Someone else wrote that code and shared it for free. You got it w
 
 ## STEP 10 · Your first commit 💾 Always Be Commiting!
 
-🎬 [Watch Step 10 (Mac, 30 sec)](https://hechoenosa.github.io/zerotohero2026/weeks/week-1/videos/mac-step-10.mp4)
+🎬 Watch Step 10: [🍎 Mac](https://hechoenosa.github.io/zerotohero2026/weeks/week-1/videos/mac-step-10.mp4) · [🪟 Windows](https://hechoenosa.github.io/zerotohero2026/weeks/week-1/videos/win-step-10.mp4)
 
 A commit is a saved snapshot of your work. Back in the VS Code terminal (**Terminal → New Terminal** if it's closed), type these three lines, pressing Enter after each:
 

@@ -82,6 +82,14 @@ No computer at home: they skip the tool steps and do everything else in the brow
 - [Step 13 · Join the Wall](https://hechoenosa.github.io/zerotohero2026/weeks/week-1/videos/mac-step-13.mp4)
 - [Step 14 · Post your first weekly update](https://hechoenosa.github.io/zerotohero2026/weeks/week-1/videos/mac-step-14.mp4)
 
+**Setup on Windows** · only the steps that are different on Windows
+
+- [Step 4 · Install VS Code (Windows)](https://hechoenosa.github.io/zerotohero2026/weeks/week-1/videos/win-step-04.mp4)
+- [Step 5 · Install Git (Windows)](https://hechoenosa.github.io/zerotohero2026/weeks/week-1/videos/win-step-05.mp4)
+- [Step 8 · Bring it to your computer (Windows)](https://hechoenosa.github.io/zerotohero2026/weeks/week-1/videos/win-step-08.mp4)
+- [Step 9 · Make it yours (Windows)](https://hechoenosa.github.io/zerotohero2026/weeks/week-1/videos/win-step-09.mp4)
+- [Step 10 · Your first commit (Windows)](https://hechoenosa.github.io/zerotohero2026/weeks/week-1/videos/win-step-10.mp4)
+
 ## 🛠️ Your assignment
 
 Step-by-step instructions and Done when: **[assignment.md](assignment.md)** · [Rules](https://github.com/hechoenosa/zerotohero2026/blob/main/RULES.md) · [Stuck?](https://github.com/hechoenosa/zerotohero2026/blob/main/STUCK.md)

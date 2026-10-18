@@ -12,6 +12,12 @@
 >
 > **Due:** Sunday 25 October, 8 pm · **Post your update:** your "I'm live" issue in [hello-osa](https://github.com/hechoenosa/hello-osa/issues)
 
+## 📧 Before you start
+
+**Every builder needs their own email address** they can open (Gmail or any other). GitHub sends a code to it during signup, so you can't create your account without it.
+
+Under 13? Use a parent's email, and the parent creates the account with you.
+
 ## ✅ Week 1: what every builder completes by Sunday 25 Oct, 8 pm
 
 **Accounts**

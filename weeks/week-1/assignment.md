@@ -6,6 +6,8 @@
 
 Stuck on one step for more than 10 minutes? Post in the Hackathon group with a screenshot, what you tried, and what you expected to happen. Try to restart the computer and attempt again.
 
+> 📧 **You need an email address you can open before you start.** GitHub emails you a code in Step 2. No email yet? Make a free one first (for example at gmail.com). Under 13: use a parent's email.
+
 ## STEP 1 · Choose your handle 🏷️
 
 🎬 [Watch Step 1 (Mac, 30 sec)](https://hechoenosa.github.io/zerotohero2026/weeks/week-1/videos/mac-step-01.mp4)
@@ -23,7 +25,7 @@ Your handle is your developer name. It goes in your website link and on everythi
 🎬 [Watch Step 2 (Mac, 30 sec)](https://hechoenosa.github.io/zerotohero2026/weeks/week-1/videos/mac-step-02.mp4)
 
 1. Go to github.com/signup
-2. Enter an email, a password and your handle as the username
+2. Enter **your email** (the one you can open), a password and your handle as the username
 3. Solve the puzzle and enter the code GitHub emails you
 
 **Under 13?** A parent creates the account with their own email. You choose the handle together.

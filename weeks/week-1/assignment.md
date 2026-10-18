@@ -8,6 +8,8 @@ Stuck on one step for more than 10 minutes? Post in the Hackathon group with a s
 
 ## STEP 1 · Choose your handle 🏷️
 
+🎬 [Watch Step 1 (Mac, 30 sec)](https://github.com/hechoenosa/zerotohero2026/raw/main/weeks/week-1/videos/mac-step-01.mp4)
+
 Your handle is your developer name. It goes in your website link and on everything you build, so choose it like a superhero name.
 
 - ❌ No surname, no birth year, no school name
@@ -18,6 +20,8 @@ Your handle is your developer name. It goes in your website link and on everythi
 
 ## STEP 2 · Create your GitHub account 👤
 
+🎬 [Watch Step 2 (Mac, 30 sec)](https://github.com/hechoenosa/zerotohero2026/raw/main/weeks/week-1/videos/mac-step-02.mp4)
+
 1. Go to github.com/signup
 2. Enter an email, a password and your handle as the username
 3. Solve the puzzle and enter the code GitHub emails you
@@ -25,6 +29,8 @@ Your handle is your developer name. It goes in your website link and on everythi
 **Under 13?** A parent creates the account with their own email. You choose the handle together.
 
 ## STEP 3 · Keep your email private 🔒 (parents can help)
+
+🎬 [Watch Step 3 (Mac, 30 sec)](https://github.com/hechoenosa/zerotohero2026/raw/main/weeks/week-1/videos/mac-step-03.mp4)
 
 Your projects will be public, so your real email must stay hidden.
 
@@ -35,6 +41,8 @@ Your projects will be public, so your real email must stay hidden.
 5. Under the first box, find an address like `12345678+your-handle@users.noreply.github.com`. Copy it and paste it somewhere (Notes, a text file). You need it in Step 6.
 
 ## STEP 4 · Install VS Code 💻
+
+🎬 [Watch Step 4 (Mac, 30 sec)](https://github.com/hechoenosa/zerotohero2026/raw/main/weeks/week-1/videos/mac-step-04.mp4)
 
 VS Code is where you'll write code. Go to code.visualstudio.com and click the big **Download** button.
 
@@ -55,6 +63,8 @@ VS Code is where you'll write code. Go to code.visualstudio.com and click the bi
 4. **Next → Install → Finish**
 
 ## STEP 5 · Install Git 🌳
+
+🎬 [Watch Step 5 (Mac, 30 sec)](https://github.com/hechoenosa/zerotohero2026/raw/main/weeks/week-1/videos/mac-step-05.mp4)
 
 Git is a time machine for your code. It saves every version so you can always go back.
 
@@ -81,6 +91,8 @@ Git is a time machine for your code. It saves every version so you can always go
 
 ## STEP 6 · Tell Git who you are 🪪
 
+🎬 [Watch Step 6 (Mac, 30 sec)](https://github.com/hechoenosa/zerotohero2026/raw/main/weeks/week-1/videos/mac-step-06.mp4)
+
 In the VS Code terminal, type these two lines, pressing Enter after each. Use your handle and the noreply email from Step 3:
 
 ```
@@ -91,6 +103,8 @@ git config --global user.email "12345678+your-handle@users.noreply.github.com"
 Nothing happens on screen. That's normal, and it means it worked.
 
 ## STEP 7 · Make your own copy of the starter 📄
+
+🎬 [Watch Step 7 (Mac, 30 sec)](https://github.com/hechoenosa/zerotohero2026/raw/main/weeks/week-1/videos/mac-step-07.mp4)
 
 Most code in the world is already written, and developers copy and remix all the time. You're starting with a page we made for you.
 
@@ -106,6 +120,8 @@ You now have your own repo at github.com/your-handle/hello-osa.
 
 ## STEP 8 · Bring it to your computer 📥
 
+🎬 [Watch Step 8 (Mac, 30 sec)](https://github.com/hechoenosa/zerotohero2026/raw/main/weeks/week-1/videos/mac-step-08.mp4)
+
 1. In VS Code, open the Command Palette:
    - 🍎 Mac: **Cmd + Shift + P**
    - 🪟 Windows: **Ctrl + Shift + P**
@@ -119,6 +135,8 @@ You now have your own repo at github.com/your-handle/hello-osa.
 You'll see `README.md` and `index.html` on the left.
 
 ## STEP 9 · Make it yours ✏️
+
+🎬 [Watch Step 9 (Mac, 30 sec)](https://github.com/hechoenosa/zerotohero2026/raw/main/weeks/week-1/videos/mac-step-09.mp4)
 
 1. Click `index.html` on the left
 2. Find the three lines marked ✏️ and change them:
@@ -141,6 +159,8 @@ That confetti? Someone else wrote that code and shared it for free. You got it w
 
 ## STEP 10 · Your first commit 💾 Always Be Commiting!
 
+🎬 [Watch Step 10 (Mac, 30 sec)](https://github.com/hechoenosa/zerotohero2026/raw/main/weeks/week-1/videos/mac-step-10.mp4)
+
 A commit is a saved snapshot of your work. Back in the VS Code terminal (**Terminal → New Terminal** if it's closed), type these three lines, pressing Enter after each:
 
 ```
@@ -161,6 +181,8 @@ What just happened:
 
 ## STEP 11 · Go live 🚀
 
+🎬 [Watch Step 11 (Mac, 30 sec)](https://github.com/hechoenosa/zerotohero2026/raw/main/weeks/week-1/videos/mac-step-11.mp4)
+
 1. Go to github.com/your-handle/hello-osa
 2. Click **Settings** (top menu of the repo)
 3. In the left menu, click **Pages**
@@ -173,6 +195,8 @@ What just happened:
 Open it on your phone. That's yours, on the internet. 🌎
 
 ## STEP 12 · Write down your idea 💡
+
+🎬 [Watch Step 12 (Mac, 30 sec)](https://github.com/hechoenosa/zerotohero2026/raw/main/weeks/week-1/videos/mac-step-12.mp4)
 
 1. In VS Code, hover over the folder name on the left and click the **New File** icon (a page with a +)
 2. Name it `my-idea.md` and press Enter
@@ -202,6 +226,8 @@ That's your second commit.
 
 ## STEP 13 · Join the Wall 🧱
 
+🎬 [Watch Step 13 (Mac, 30 sec)](https://github.com/hechoenosa/zerotohero2026/raw/main/weeks/week-1/videos/mac-step-13.mp4)
+
 The Wall is where every builder's first website shows up.
 
 1. Go to github.com/hechoenosa/hello-osa/issues
@@ -213,6 +239,8 @@ The Wall is where every builder's first website shows up.
 Bookmark this issue. It's where your weekly updates go.
 
 ## STEP 14 · Post your first weekly update 📣
+
+🎬 [Watch Step 14 (Mac, 30 sec)](https://github.com/hechoenosa/zerotohero2026/raw/main/weeks/week-1/videos/mac-step-14.mp4)
 
 1. Open your Wall issue (the bookmark from Step 13)
 2. Scroll to the bottom to the box that says "Add a comment"

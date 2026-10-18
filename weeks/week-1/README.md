@@ -49,18 +49,15 @@ No computer at home: they skip the tool steps and do everything else in the brow
 
 ## 🎬 Watch first
 
+Watch these before Saturday's Build Hour. Tap a title to play.
+
 | # | Video | Who | Length |
 |---|---|---|---|
-| 1 | Do it scared + Intro | Zamir | ≤ 4 min |
-| 2 | The impostor feeling | Alex | ≤ 4 min |
-| 3 | What is a product? What is a problem? | Emilie | ≤ 4 min |
-| 4 | Think like a product leader | Vlad | ≤ 4 min |
-| 5 | What engineers do + pick your handle | Lee | ≤ 10 min |
-| 6a | Setup on Mac | Lee/mentor | ~14 clips, ≤ 2 min each |
-| 6b | Setup on Windows | Lee or a mentor with Windows | ~14 clips, ≤ 2 min each |
-| 7 | How I learned to code at 33 + deadline setting | Anastasia | ≤ 4 min |
-
-<!-- Paste each video's link from the locked "Week 1 videos" issue. -->
+| 1 | [Do it scared + Intro](https://github.com/hechoenosa/zerotohero2026/raw/main/weeks/week-1/videos/01-zamir-do-it-scared.mp4) | Zamir | 4 min |
+| 2 | [The impostor feeling](https://github.com/hechoenosa/zerotohero2026/raw/main/weeks/week-1/videos/02-alex-impostor-feeling.mp4) | Alex | 5 min |
+| 3 | [What is a product? What is a problem?](https://github.com/hechoenosa/zerotohero2026/raw/main/weeks/week-1/videos/03-emilie-product-and-problem.mp4) | Emilie | 4.5 min |
+| 4 | [What engineers do](https://github.com/hechoenosa/zerotohero2026/raw/main/weeks/week-1/videos/04-lee-what-engineers-do.mp4) | Lee | 4 min |
+| 5 | Setup, step by step (Mac): one short clip for each step in the [assignment](assignment.md) | Lee | 14 clips, about 30 sec each |
 
 ## 🛠️ Your assignment
 

@@ -107,8 +107,8 @@ Each week has two pages: a short **overview** (`README.md`) with your mission an
 
 ## Who helps you
 
-- **Weeks 1–4:** mentors rotate. Ask whoever is in front of you at Build Hour.
-- **From Week 5:** each team has its own mentor.
+- **Weeks 1–2:** ask whoever is in front of you at Build Hour.
+- **By Sun 1 Nov (end of Week 2), or earlier:** you're matched with your own mentor, who stays with you to Demo Day.
 - **Speakers:** Emilie, Vlad, Lee, Alex, Zamir and Anastasia record short videos and lead Build Hours.
 
 Mentors give you questions, not answers. They won't build it for you. That's the point.

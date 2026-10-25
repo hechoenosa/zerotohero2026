@@ -2,8 +2,7 @@
 
 # Week 6 · Build together (coworking)
 
-> 🔒 **Opens Sun 22 Nov, after the 8 pm update deadline.**
-> Until then, finish [Week 5](../week-5/).
+> 🔒 **This week isn't open yet.**
 
 **Build Hour:** coworking, Sat 28 Nov · **Leads:** team mentors · **Due:** Sun 29 Nov, 8 pm · **Phase:** Test · **Checkpoint 3**
 

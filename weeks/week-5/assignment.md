@@ -2,4 +2,4 @@
 
 # Week 5 · Prompting + the Vibe Jam (Anastasia) · Assignment
 
-> 🔒 **Opens Sun 15 Nov.**
+> 🔒 **This week isn't open yet.**

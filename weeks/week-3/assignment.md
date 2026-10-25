@@ -2,4 +2,4 @@
 
 # Week 3 · Your PRD (Lee) · Assignment
 
-> 🔒 **Opens Sun 1 Nov.**
+> 🔒 **This week isn't open yet.**

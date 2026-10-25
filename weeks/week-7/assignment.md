@@ -2,4 +2,4 @@
 
 # Week 7 · Presentation prep · Assignment
 
-> 🔒 **Opens Sun 29 Nov.**
+> 🔒 **This week isn't open yet.**

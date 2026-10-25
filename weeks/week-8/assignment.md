@@ -2,4 +2,4 @@
 
 # Week 8 · Code freeze + Demo Day · Assignment
 
-> 🔒 **Opens Sun 6 Dec.**
+> 🔒 **This week isn't open yet.**

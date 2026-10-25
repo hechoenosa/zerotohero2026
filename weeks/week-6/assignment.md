@@ -2,4 +2,4 @@
 
 # Week 6 · Build together (coworking) · Assignment
 
-> 🔒 **Opens Sun 22 Nov.**
+> 🔒 **This week isn't open yet.**

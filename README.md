@@ -15,7 +15,7 @@ Open the [Week 1 assignment](weeks/week-1/assignment.md) and skim the 15 steps.
 | Most of it is new to you | **🌱 Zero to Hero.** Follow the 8 weeks, one assignment at a time. Mentors check your progress every week. |
 | You already have a GitHub account with your own code on it, and VS Code or another code editor installed | **🚀 Pro.** Skip the weekly assignments and build your own project. |
 
-**Pro builders:** come to any Build Hour or workshop you like. Nobody checks your weekly assignments. Ask for your project repo (made from project-template), build it your way, and submit by **Thu 10 Dec, 8 pm**: **[Pro builders, start here](SUBMIT.md)**.
+**Pro builders:** come to any Build Hour or workshop you like. Nobody checks your weekly assignments. First, **[send us your idea](https://github.com/hechoenosa/project-template/issues/new?template=pro.yml) by Sun 1 Nov**. Then build it your way and submit by **Thu 10 Dec, 8 pm**. All the steps: **[Pro builders, start here](SUBMIT.md)**.
 
 Not sure? Start with Zero to Hero.
 
@@ -35,13 +35,13 @@ Not sure? Start with Zero to Hero.
 | Week | Build Hour | Theme | Lead | Phase | Opens |
 |---|---|---|---|---|---|
 | [1](weeks/week-1/) | Sat 24 Oct | Your first website | Emilie (workshop) · Lee (GitHub setup, mentors help 1-1 in small groups) | Discover | 🔒 Mon 19 Oct |
-| [2](weeks/week-2/) | New day TBC (not Sat 31 Oct) | Product sense + GitHub practice | Vlad · product sense | Discover | 🔒 Sun 25 Oct |
-| [3](weeks/week-3/) | Sat 7 Nov | Your PRD (what we build) | Lee | Define | 🔒 Sun 1 Nov |
-| [4](weeks/week-4/) | Sat 14 Nov | Your TRD + first AI tools | Lee (system design) · Anastasia (data) · Zamir (what AI is, ethics) | Develop | 🔒 Sun 8 Nov |
-| [5](weeks/week-5/) | Sat 21 Nov · VIBE JAM | Prompting + Vibe Jam | Anastasia (prompting) · all mentors at the Jam | Develop | 🔒 Sun 15 Nov |
-| [6](weeks/week-6/) | Sat 28 Nov | Build together | All mentors · coworking, no special programming | Test | 🔒 Sun 22 Nov |
-| [7](weeks/week-7/) | Sat 5 Dec | Presentation prep | Emilie (story) · Lee (README) · team mentors | Deliver | 🔒 Sun 29 Nov |
-| [8](weeks/week-8/) | Code freeze Thu 10 Dec, 8 pm · Demo Day Sat 12 Dec | Code freeze + Demo Day | All mentors | Deliver | 🔒 Sun 6 Dec |
+| [2](weeks/week-2/) | Sat 31 Oct | Product sense + GitHub practice | Vlad · product sense | Discover | 🔒 Coming soon |
+| [3](weeks/week-3/) | Sat 7 Nov | Your PRD (what we build) | Lee | Define | 🔒 Coming soon |
+| [4](weeks/week-4/) | Sat 14 Nov | Your TRD + first AI tools | Lee (system design) · Anastasia (data) · Zamir (what AI is, ethics) | Develop | 🔒 Coming soon |
+| [5](weeks/week-5/) | Sat 21 Nov · VIBE JAM | Prompting + Vibe Jam | Anastasia (prompting) · all mentors at the Jam | Develop | 🔒 Coming soon |
+| [6](weeks/week-6/) | Sat 28 Nov | Build together | All mentors · coworking, no special programming | Test | 🔒 Coming soon |
+| [7](weeks/week-7/) | Sat 5 Dec | Presentation prep | Emilie (story) · Lee (README) · team mentors | Deliver | 🔒 Coming soon |
+| [8](weeks/week-8/) | Code freeze Thu 10 Dec, 8 pm · Demo Day Sat 12 Dec | Code freeze + Demo Day | All mentors | Deliver | 🔒 Coming soon |
 
 **Spark Night:** Mon 19 Oct · **Code freeze:** Thu 10 Dec, 8 pm · **Demo Day:** Sat 12 Dec (location TBD)
 

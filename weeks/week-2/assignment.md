@@ -2,4 +2,4 @@
 
 # Week 2 · Product sense + GitHub practice · Assignment
 
-> 🔒 **Opens Sun 25 Oct.**
+> 🔒 **Week 2 isn't open yet.** For now, finish [Week 1](../week-1/) by Sun 1 Nov, 8 pm.

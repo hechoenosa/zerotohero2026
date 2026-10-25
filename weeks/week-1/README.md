@@ -10,7 +10,11 @@
 > 4. Join the Wall and post your update → Steps 13–14
 > 5. Show your site to one adult and one friend → Step 15
 >
-> **Due:** Sunday 25 October, 8 pm · **Post your update:** your "I'm live" issue in [hello-osa](https://github.com/hechoenosa/hello-osa/issues)
+> **Due:** Sunday 1 November, 8 pm (extended) · **Post your update:** your "I'm live" issue in [hello-osa](https://github.com/hechoenosa/hello-osa/issues)
+
+> 🧭 **Not sure where to start?** Watch Zamir's and Alex's videos below, then do the steps one at a time. Some of our youngest builders have already finished Week 1, a few of them with a parent who doesn't code sitting next to them, so you can do it too.
+>
+> 💡 **Missed Emilie's ideation workshop?** [See the workshop materials](https://github.com/hechoenosa/zerotohero2026/blob/main/weeks/week-1/ideation-workshop-materials.pdf) (optional, no coding).
 
 ## 📧 Before you start
 
@@ -18,7 +22,7 @@
 
 Under 13? Use a parent's email, and the parent creates the account with you.
 
-## ✅ Week 1: what every builder completes by Sunday 25 Oct, 8 pm
+## ✅ Week 1: what every builder completes by Sunday 1 Nov, 8 pm
 
 **Accounts**
 

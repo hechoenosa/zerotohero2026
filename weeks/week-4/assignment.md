@@ -2,4 +2,4 @@
 
 # Week 4 · Your TRD + first AI tools (Lee, Anastasia, Zamir) · Assignment
 
-> 🔒 **Opens Sun 8 Nov.**
+> 🔒 **This week isn't open yet.**

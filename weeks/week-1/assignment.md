@@ -2,7 +2,7 @@
 
 # Week 1 · Assignment
 
-**Due: Sunday 25 October, 8 pm** · about 1-2 hours · do the steps in order
+**Due: Sunday 1 November, 8 pm** (extended) · about 1-2 hours · do the steps in order
 
 Stuck on one step for more than 10 minutes? Post in the Hackathon group with a screenshot, what you tried, and what you expected to happen. Try to restart the computer and attempt again.
 

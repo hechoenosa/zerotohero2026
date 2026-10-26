@@ -43,7 +43,7 @@ Chromebook or no computer of their own: Codespaces in the browser counts for all
 
 **⭐ Their idea**
 
-- [ ] Their "I'm in: handle" issue on the Wall in hechoenosa/hello-osa, with the idea: what it is, who it's for, the problem, one person they can talk to
+- [ ] Their "I'm in: handle" issue on the Wall in hechoenosa/hello-osa, with their idea and who it's for (or "Still deciding")
 - [ ] Already have an "I'm live" issue or `my-idea.md` in their repo? That counts
 
 **🎁 Bonus**

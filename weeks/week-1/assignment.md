@@ -240,13 +240,12 @@ That's your second commit.
 The Wall is where every builder shows up. You do this one in the browser.
 
 1. Open the form: **[🧱 I'm in](https://github.com/hechoenosa/hello-osa/issues/new?template=im-live.yml)** (sign in to GitHub first)
-2. Title: `I'm in: your-handle`
-3. Fill in the boxes: your idea, who it's for, their problem, and one person you can talk to about it
-4. Tick the box that says your tools work (Steps 4–6)
-5. Did the bonus website? Paste your link too. No website yet? Leave it empty.
-6. Click **Create**
+2. In the title, write your handle after `I'm in: `
+3. Fill in two boxes: your idea, and who it's for
+4. Tick the box that says your tools work
+5. Click **Create**
 
-For the person: a first name or a role only, like "my uncle who fishes in Uvita". No surnames.
+> 🤔 **No idea yet?** That's okay. Write "Still deciding" and a problem you've noticed. You can change it later.
 
 Bookmark this issue. It's where your weekly updates go.
 
@@ -286,7 +285,7 @@ Show your live website to one adult and one friend. Watch their face when they c
 
 - [ ] GitHub account with your handle, email set to private
 - [ ] VS Code and Git installed, and `git --version` works (or Codespaces on a Chromebook)
-- [ ] Your "I'm in" issue is on the Wall, with your idea
+- [ ] Your "I'm in" issue is on the Wall, with your idea (or "Still deciding")
 
 **🎁 Bonus**
 

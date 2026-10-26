@@ -4,13 +4,16 @@
 
 > ## 🎯 Your mission this week
 >
+> ⭐ **Required**
 > 1. Get your GitHub account and tools ready → Steps 1–6
-> 2. Put your first website online → Steps 7–11
-> 3. Write down your idea → Step 12
-> 4. Join the Wall and post your update → Steps 13–14
-> 5. Show your site to one adult and one friend → Step 15
+> 2. Send your idea and join the Wall → Step 13
 >
-> **Due:** Sunday 1 November, 8 pm (extended) · **Post your update:** your "I'm live" issue in [hello-osa](https://github.com/hechoenosa/hello-osa/issues)
+> 🎁 **Bonus**
+> - Put your confetti website online → Steps 7–11
+> - Add your idea to your repo → Step 12
+> - Post your weekly update and show your site to one adult and one friend → Steps 14–15
+>
+> **Due:** Sunday 1 November, 8 pm (extended) · **Post your update:** your "I'm in" issue in [hello-osa](https://github.com/hechoenosa/hello-osa/issues)
 
 > 🧭 **Not sure where to start?** Watch Zamir's and Alex's videos below, then do the steps one at a time. Some of our youngest builders have already finished Week 1, a few of them with a parent who doesn't code sitting next to them, so you can do it too.
 >
@@ -24,37 +27,31 @@ Under 13? Use a parent's email, and the parent creates the account with you.
 
 ## ✅ Week 1: what every builder completes by Sunday 1 Nov, 8 pm
 
-**Accounts**
+**⭐ Accounts**
 
 - [ ] A GitHub handle: no surname, birth year or school name
 - [ ] A GitHub account with that handle (under 13: created by a parent, with the parent's email)
 - [ ] Email kept private (GitHub Settings → Emails → Keep my email addresses private)
 
-**Tools on their computer**
+**⭐ Tools on their computer**
 
 - [ ] VS Code installed and opening
 - [ ] Git installed (`git --version` shows a number in the VS Code terminal)
 - [ ] Git set up with their handle and their private noreply email
-- [ ] VS Code signed in to GitHub (this happens the first time they clone)
 
-No computer at home: they skip the tool steps and do everything else in the browser
+Chromebook or no computer of their own: Codespaces in the browser counts for all the tool steps
 
-**Their first website**
+**⭐ Their idea**
 
-- [ ] Their own copy of hello-osa on their GitHub account
-- [ ] Made it theirs: their handle, a sentence about them, an emoji
-- [ ] First commit pushed to GitHub
-- [ ] Live on the internet at their-handle.github.io/hello-osa, and it opens on a phone
+- [ ] Their "I'm in: handle" issue on the Wall in hechoenosa/hello-osa, with the idea: what it is, who it's for, the problem, one person they can talk to
+- [ ] Already have an "I'm live" issue or `my-idea.md` in their repo? That counts
 
-**Their idea**
+**🎁 Bonus**
 
-- [ ] `my-idea.md` in their repo: what the idea is, who it's for, the problem, one person they can talk to
-- [ ] Second commit pushed
-
-**Showing up**
-
-- [ ] On the Wall: their "I'm live: handle" issue, with the link, in hechoenosa/hello-osa
-- [ ] First weekly update posted as a comment on that issue
+- [ ] Their own copy of hello-osa, made theirs, first commit pushed (VS Code signs in to GitHub the first time they clone)
+- [ ] Live at their-handle.github.io/hello-osa, and it opens on a phone
+- [ ] `my-idea.md` in their repo
+- [ ] First weekly update posted as a comment on their Wall issue
 - [ ] Shown their site to one adult and one friend
 
 ## 🎬 Watch first

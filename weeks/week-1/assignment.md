@@ -2,13 +2,16 @@
 
 # Week 1 · Assignment
 
-**Due: Sunday 1 November, 8 pm** (extended) · about 1-2 hours · do the steps in order
+**Due: Sunday 1 November, 8 pm** (extended) · do the steps in order
+
+> ⭐ **Required:** Steps 1–6 and 13. About 1 hour.
+> 🎁 **Bonus:** Everything else. Do it if you have time, it's great practice.
 
 Stuck on one step for more than 10 minutes? Post in the Hackathon group with a screenshot, what you tried, and what you expected to happen. Try to restart the computer and attempt again.
 
 > 📧 **You need an email address you can open before you start.** GitHub emails you a code in Step 2. No email yet? Make a free one first (for example at gmail.com). Under 13: use a parent's email.
 
-## STEP 1 · Choose your handle 🏷️
+## ⭐ STEP 1 · Choose your handle 🏷️
 
 🎬 [Watch Step 1 (Mac, 30 sec)](https://hechoenosa.github.io/zerotohero2026/weeks/week-1/videos/mac-step-01.mp4)
 
@@ -20,7 +23,7 @@ Your handle is your developer name. It goes in your website link and on everythi
 
 **Check it's free:** type `github.com/the-name-you-want` in your browser. If you see a 404 page, the name is free 🎉
 
-## STEP 2 · Create your GitHub account 👤
+## ⭐ STEP 2 · Create your GitHub account 👤
 
 🎬 [Watch Step 2 (Mac, 30 sec)](https://hechoenosa.github.io/zerotohero2026/weeks/week-1/videos/mac-step-02.mp4)
 
@@ -30,7 +33,7 @@ Your handle is your developer name. It goes in your website link and on everythi
 
 **Under 13?** A parent creates the account with their own email. You choose the handle together.
 
-## STEP 3 · Keep your email private 🔒 (parents can help)
+## ⭐ STEP 3 · Keep your email private 🔒 (parents can help)
 
 🎬 [Watch Step 3 (Mac, 30 sec)](https://hechoenosa.github.io/zerotohero2026/weeks/week-1/videos/mac-step-03.mp4)
 
@@ -42,7 +45,7 @@ Your projects will be public, so your real email must stay hidden.
 4. Tick ✅ **Block command line pushes that expose my email**
 5. Under the first box, find an address like `12345678+your-handle@users.noreply.github.com`. Copy it and paste it somewhere (Notes, a text file). You need it in Step 6.
 
-## STEP 4 · Install VS Code 💻
+## ⭐ STEP 4 · Install VS Code 💻
 
 🎬 Watch Step 4: [🍎 Mac](https://hechoenosa.github.io/zerotohero2026/weeks/week-1/videos/mac-step-04.mp4) · [🪟 Windows](https://hechoenosa.github.io/zerotohero2026/weeks/week-1/videos/win-step-04.mp4)
 
@@ -64,7 +67,9 @@ VS Code is where you'll write code. Go to code.visualstudio.com and click the bi
    - ✅ Add to PATH
 4. **Next → Install → Finish**
 
-## STEP 5 · Install Git 🌳
+> 💻 **Chromebook, or no computer of your own?** Go to github.com/codespaces, find the **Blank** template and click **Use this template**. VS Code opens in your browser, with Git already in it. Do Steps 5 and 6 in its terminal (**☰ menu → Terminal → New Terminal**).
+
+## ⭐ STEP 5 · Install Git 🌳
 
 🎬 Watch Step 5: [🍎 Mac](https://hechoenosa.github.io/zerotohero2026/weeks/week-1/videos/mac-step-05.mp4) · [🪟 Windows](https://hechoenosa.github.io/zerotohero2026/weeks/week-1/videos/win-step-05.mp4)
 
@@ -91,7 +96,7 @@ Git is a time machine for your code. It saves every version so you can always go
 
 ✅ It worked if you see something like `git version 2.47.0`. Any number is fine.
 
-## STEP 6 · Tell Git who you are 🪪
+## ⭐ STEP 6 · Tell Git who you are 🪪
 
 🎬 [Watch Step 6 (Mac, 30 sec)](https://hechoenosa.github.io/zerotohero2026/weeks/week-1/videos/mac-step-06.mp4)
 
@@ -104,7 +109,9 @@ git config --global user.email "12345678+your-handle@users.noreply.github.com"
 
 Nothing happens on screen. That's normal, and it means it worked.
 
-## STEP 7 · Make your own copy of the starter 📄
+> 🎁 **Steps 7–12 are a bonus:** Your confetti website and your idea as a file. Short on time? Jump to **Step 13**.
+
+## 🎁 STEP 7 · Make your own copy of the starter 📄
 
 🎬 [Watch Step 7 (Mac, 30 sec)](https://hechoenosa.github.io/zerotohero2026/weeks/week-1/videos/mac-step-07.mp4)
 
@@ -120,7 +127,7 @@ Most code in the world is already written, and developers copy and remix all the
 
 You now have your own repo at github.com/your-handle/hello-osa.
 
-## STEP 8 · Bring it to your computer 📥
+## 🎁 STEP 8 · Bring it to your computer 📥
 
 🎬 Watch Step 8: [🍎 Mac](https://hechoenosa.github.io/zerotohero2026/weeks/week-1/videos/mac-step-08.mp4) · [🪟 Windows](https://hechoenosa.github.io/zerotohero2026/weeks/week-1/videos/win-step-08.mp4)
 
@@ -136,7 +143,7 @@ You now have your own repo at github.com/your-handle/hello-osa.
 
 You'll see `README.md` and `index.html` on the left.
 
-## STEP 9 · Make it yours ✏️
+## 🎁 STEP 9 · Make it yours ✏️
 
 🎬 Watch Step 9: [🍎 Mac](https://hechoenosa.github.io/zerotohero2026/weeks/week-1/videos/mac-step-09.mp4) · [🪟 Windows](https://hechoenosa.github.io/zerotohero2026/weeks/week-1/videos/win-step-09.mp4)
 
@@ -159,7 +166,7 @@ You'll see `README.md` and `index.html` on the left.
 
 That confetti? Someone else wrote that code and shared it for free. You got it with one line. Look at the top of `index.html` to find it.
 
-## STEP 10 · Your first commit 💾 Always Be Commiting!
+## 🎁 STEP 10 · Your first commit 💾 Always Be Commiting!
 
 🎬 Watch Step 10: [🍎 Mac](https://hechoenosa.github.io/zerotohero2026/weeks/week-1/videos/mac-step-10.mp4) · [🪟 Windows](https://hechoenosa.github.io/zerotohero2026/weeks/week-1/videos/win-step-10.mp4)
 
@@ -181,7 +188,7 @@ What just happened:
 
 ✅ It worked if your repo on github.com shows your handle in `index.html`.
 
-## STEP 11 · Go live 🚀
+## 🎁 STEP 11 · Go live 🚀
 
 🎬 [Watch Step 11 (Mac, 30 sec)](https://hechoenosa.github.io/zerotohero2026/weeks/week-1/videos/mac-step-11.mp4)
 
@@ -196,7 +203,7 @@ What just happened:
 
 Open it on your phone. That's yours, on the internet. 🌎
 
-## STEP 12 · Write down your idea 💡
+## 🎁 STEP 12 · Write down your idea 💡
 
 🎬 [Watch Step 12 (Mac, 30 sec)](https://hechoenosa.github.io/zerotohero2026/weeks/week-1/videos/mac-step-12.mp4)
 
@@ -226,21 +233,26 @@ git push
 
 That's your second commit.
 
-## STEP 13 · Join the Wall 🧱
+## ⭐ STEP 13 · Send your idea and join the Wall 💡🧱
 
 🎬 [Watch Step 13 (Mac, 30 sec)](https://hechoenosa.github.io/zerotohero2026/weeks/week-1/videos/mac-step-13.mp4)
 
-The Wall is where every builder's first website shows up.
+The Wall is where every builder shows up. You do this one in the browser.
 
-1. Go to github.com/hechoenosa/hello-osa/issues
-2. Click **New issue**
-3. Title: `I'm live: your-handle`
-4. In the big box: paste your link, `https://your-handle.github.io/hello-osa`
-5. Click **Create**
+1. Open the form: **[🧱 I'm in](https://github.com/hechoenosa/hello-osa/issues/new?template=im-live.yml)** (sign in to GitHub first)
+2. Title: `I'm in: your-handle`
+3. Fill in the boxes: your idea, who it's for, their problem, and one person you can talk to about it
+4. Tick the box that says your tools work (Steps 4–6)
+5. Did the bonus website? Paste your link too. No website yet? Leave it empty.
+6. Click **Create**
+
+For the person: a first name or a role only, like "my uncle who fishes in Uvita". No surnames.
 
 Bookmark this issue. It's where your weekly updates go.
 
-## STEP 14 · Post your first weekly update 📣
+> ✅ **Already posted an "I'm live" issue, or added `my-idea.md` to your repo?** You're covered, nothing to redo. If your idea isn't on your issue yet, paste it there as a comment.
+
+## 🎁 STEP 14 · Post your first weekly update 📣
 
 🎬 [Watch Step 14 (Mac, 30 sec)](https://hechoenosa.github.io/zerotohero2026/weeks/week-1/videos/mac-step-14.mp4)
 
@@ -262,28 +274,24 @@ Bookmark this issue. It's where your weekly updates go.
 
 Optional: in the Hackathon WhatsApp group, write "Week 1 posted ✅" with the link.
 
-## STEP 15 · Do it scared 💪
+## 🎁 STEP 15 · Do it scared 💪
 
 Show your live website to one adult and one friend. Watch their face when they click the button.
 
 ---
 
-## 🏫 No computer at home?
-
-Reach out to organizers for Build Hour, and we will support
-
-- Do Steps 1, 2, 3, 7, 11, 13, 14 and 15 in the browser.
-- Skip Steps 4, 5, 6, 8 and 10.
-- For Steps 9 and 12: open github.com/your-handle/hello-osa and press the `.` key. An editor opens in the browser. Make your changes, then click the branch icon on the left, type a message, and click **Commit & Push**.
-- Always sign out of GitHub before you leave.
-
 ## ✅ Done when
 
+**⭐ Required**
+
 - [ ] GitHub account with your handle, email set to private
-- [ ] VS Code and Git installed, and `git --version` works
+- [ ] VS Code and Git installed, and `git --version` works (or Codespaces on a Chromebook)
+- [ ] Your "I'm in" issue is on the Wall, with your idea
+
+**🎁 Bonus**
+
 - [ ] your-handle.github.io/hello-osa opens on a phone and shows your handle
 - [ ] `my-idea.md` is in your repo
-- [ ] Your "I'm live" issue is on the Wall
 - [ ] Your Week 1 update is posted
 - [ ] Shown to one adult and one friend
 

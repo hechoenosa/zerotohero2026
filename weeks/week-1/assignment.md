@@ -235,8 +235,6 @@ That's your second commit.
 
 ## ⭐ STEP 13 · Send your idea and join the Wall 💡🧱
 
-🎬 [Watch Step 13 (Mac, 30 sec)](https://hechoenosa.github.io/zerotohero2026/weeks/week-1/videos/mac-step-13.mp4)
-
 The Wall is where every builder shows up. You do this one in the browser.
 
 1. Open the form: **[🧱 I'm in](https://github.com/hechoenosa/hello-osa/issues/new?template=im-live.yml)** (sign in to GitHub first)
@@ -244,6 +242,8 @@ The Wall is where every builder shows up. You do this one in the browser.
 3. Fill in two boxes: your idea, and who it's for
 4. Tick the box that says your tools work
 5. Click **Create**
+
+**My live website** is a bonus. Made the website? Find your link in your hello-osa repo under **Settings → Pages**, where it says "Your site is live at…". No website? Leave it empty.
 
 > 🤔 **No idea yet?** That's okay. Write "Still deciding" and a problem you've noticed. You can change it later.
 
@@ -266,7 +266,7 @@ Bookmark this issue. It's where your weekly updates go.
 🔜 Next: what I'll do before the next Build Hour
 🧱 Stuck: what's blocking me (or "nothing")
 😬 Scariest part of setup:
-🔗 Link: https://your-handle.github.io/hello-osa
+🔗 Link (bonus, if you made the website): https://your-handle.github.io/hello-osa
 ```
 
 4. Click **Comment**

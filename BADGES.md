@@ -17,9 +17,8 @@ Physical builds count too: for **Shipped**, a README with photos of your build i
 ## How you get a badge
 
 1. You finish the milestone.
-2. Your mentor or Anastasia posts your badge as a reply on your Wall issue in [hello-osa](https://github.com/hechoenosa/hello-osa/issues). GitHub emails you when it's posted.
-3. You get a shout-out in your Mentor Room on WhatsApp.
-4. Your handle goes on the Badge Wall below.
+2. Your badge is posted as a reply on your Wall issue in [hello-osa](https://github.com/hechoenosa/hello-osa/issues). GitHub emails you when it's posted.
+3. Your handle goes on the Badge Wall below.
 
 **Show it off:** make a repo with exactly your handle as its name (for example `your-handle/your-handle`) and paste this in its README. It shows at the top of your GitHub profile.
 

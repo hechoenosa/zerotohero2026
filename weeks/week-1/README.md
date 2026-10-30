@@ -4,14 +4,13 @@
 
 > ## 🎯 Your mission this week
 >
-> ⭐ **Required**
-> 1. Get your GitHub account and tools ready → Steps 1–6
-> 2. Send your idea and join the Wall → Step 13
+>  Pick your path. **Every path counts as done** ✅
 >
-> 🎁 **Bonus**
-> - Put your confetti website online → Steps 7–11
-> - Add your idea to your repo → Step 12
-> - Post your weekly update and show your site to one adult and one friend → Steps 14–15
+> 🌱 **Express** · 20 min · any device, even an iPad or phone → Steps 1, 2, 3 and 13
+> 🛠️ **Builder** · about 1 hour · laptop → Steps 1–6 and 13
+> 🏅 **Full Builder** · about 2 hours · laptop → all 15 steps, and you earn the 🏅 **Full Builder badge**
+>
+> Not sure? Start with Express. You can level up any time.
 >
 > **Due:** Sunday 1 November, 8 pm (extended) · **Post your update:** your "I'm in" issue in [hello-osa](https://github.com/hechoenosa/hello-osa/issues)
 
@@ -25,34 +24,31 @@
 
 Under 13? Use a parent's email, and the parent creates the account with you.
 
-## ✅ Week 1: what every builder completes by Sunday 1 Nov, 8 pm
+## ✅ Week 1: done by Sunday 1 Nov, 8 pm
 
-**⭐ Accounts**
+**🌱 Express** (every builder)
 
 - [ ] A GitHub handle: no surname, birth year or school name
 - [ ] A GitHub account with that handle (under 13: created by a parent, with the parent's email)
 - [ ] Email kept private (GitHub Settings → Emails → Keep my email addresses private)
+- [ ] Their "I'm in: handle" issue on the Wall in hechoenosa/hello-osa, with their idea and who it's for (or "Still deciding")
+- [ ] Already have an "I'm live" issue or `my-idea.md` in their repo? That counts
 
-**⭐ Tools on their computer**
+**🛠️ Builder:** Express, plus tools on their computer
 
 - [ ] VS Code installed and opening
 - [ ] Git installed (`git --version` shows a number in the VS Code terminal)
 - [ ] Git set up with their handle and their private noreply email
 
-No computer at home: they skip the tool steps and do everything else in the browser
-
-**⭐ Their idea**
-
-- [ ] Their "I'm in: handle" issue on the Wall in hechoenosa/hello-osa, with their idea and who it's for (or "Still deciding")
-- [ ] Already have an "I'm live" issue or `my-idea.md` in their repo? That counts
-
-**🎁 Bonus**
+**🏅 Full Builder:** Builder, plus
 
 - [ ] Their own copy of hello-osa, made theirs, first commit pushed (VS Code signs in to GitHub the first time they clone)
 - [ ] Live at their-handle.github.io/hello-osa, and it opens on a phone
 - [ ] `my-idea.md` in their repo
 - [ ] First weekly update posted as a comment on their Wall issue
 - [ ] Shown their site to one adult and one friend
+
+On an iPad, a phone or an older computer? Express is perfect. Your mentor will help with tools when your project needs them.
 
 ## 🎬 Watch first
 

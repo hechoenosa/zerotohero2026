@@ -4,7 +4,7 @@ From "what's a terminal?" to a real product, live on the internet, in 8 weeks.
 
 ![Zero to Hero roadmap: Discover, Define, Develop, Test, Deliver across 8 weeks, from Spark Night to Demo Day](assets/roadmap.svg)
 
-**New here? Read [how Zero to Hero works](PROGRAM.md)** · [Rules](RULES.md) · [Stuck?](STUCK.md)
+**New here? Read [how Zero to Hero works](PROGRAM.md)** · [Rules](RULES.md) · [Stuck?](STUCK.md) · [🏅 Badges](BADGES.md)
 
 ## 🤔 Zero to Hero or Pro?
 
@@ -72,6 +72,10 @@ The Stack levels are about how your project runs. Only climb when your idea need
 | Live info like tides, waves or weather | Level 1 · Live | Week 5, after v1.0 |
 | Other people adding data from their phones | Level 2 · Shared | Week 5–6, after v1.0 |
 | Anyone opening it from a link or QR code | Level 3 · Public | You're already here from Week 3 |
+
+## 🏅 Badges
+
+Collect badges for the big moments: Week 1, the Vibe Jam, code freeze and Demo Day. Collect them all and you're an **Osa Legend** 🌴 **[See all badges and the Badge Wall →](BADGES.md)**
 
 ## Rules and help
 

@@ -7,7 +7,7 @@ Badges celebrate the big moments of the hackathon. Collect them all and you beco
 | | Badge | How to earn it | Who |
 |---|---|---|---|
 | <img src="assets/badges/01-full-builder.png" width="90" alt="Full Builder badge"> | **Full Builder** · Week 1 | Finish all 15 steps of the [Week 1 assignment](weeks/week-1/assignment.md): tools, first commit, live website, your idea and your first update | 🌱 Zero to Hero |
-| <img src="assets/badges/02-vibe-jammer.png" width="90" alt="Vibe Jammer badge"> | **Vibe Jammer** · Sat 21 Nov | Come to the Vibe Jam and build the first version of your project | Everyone |
+| <img src="assets/badges/02-vibe-jammer.png" width="90" alt="Vibe Jammer badge"> | **Vibe Jammer** · Sat 21 Nov | Come to the Vibe Jam and build with everyone. 🌱 Zero to Hero: build the first version of your project. 🚀 Pro: ship your next feature, or help another team get unstuck | Everyone |
 | <img src="assets/badges/03-shipped.png" width="90" alt="Shipped badge"> | **Shipped** · Thu 10 Dec, 8 pm | Your project and README are on GitHub by code freeze | Everyone |
 | <img src="assets/badges/04-demo-day.png" width="90" alt="Demo Day badge"> | **Demo Day** · Sat 12 Dec | Present your project on Demo Day | Everyone |
 | <img src="assets/badges/05-osa-legend.png" width="90" alt="Osa Legend badge"> | **Osa Legend** | Earn every badge you can (Pro builders: the last three) | Everyone |

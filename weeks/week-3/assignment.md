@@ -2,7 +2,10 @@
 
 # Week 3 · Finalize your idea
 
-**Due: Sunday 8 November, 8 pm** · Build Hour Sat 7 Nov, 10–11 am, Centro de Libertad
+**Due: Sunday 8 November, 8 pm** · Arrange to meet with you mentor. Arrange with mentor to meet in person: options --> 
+@Build Hour/Centro de Libertad Sat 7 Nov, 
+public location  10–11 am,
+online
 
 ![Zero to Hero 2026 · the double diamond · you are here: Week 3](images/double-diamond.svg)
 

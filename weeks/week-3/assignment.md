@@ -4,6 +4,8 @@
 
 **Due: Sunday 8 November, 8 pm** · Build Hour Sat 7 Nov, 10–11 am, Centro de Libertad
 
+![Zero to Hero 2026 · the double diamond · you are here: Week 3](images/double-diamond.png)
+
 We're still in Discover, about 3/4 of the way through. This week you meet your mentor, find the real problem behind your idea, talk to real people, and decide the one thing your build has to do. No coding. Define comes in Week 4.
 
 > ✏️ **Pen and paper all week.** Use a notebook or one sheet of paper. Write down everything that comes to mind. Only the last step happens on GitHub.

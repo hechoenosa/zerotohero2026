@@ -2,10 +2,8 @@
 
 # Week 3 · Finalize your idea
 
-> [!CAUTION]
-> **⏰ Due: Sunday 8 November, 8 pm**
+### $\color{#d1242f}{\textsf{Due: Sunday 8 November, 8 pm}}$
 
-> [!IMPORTANT]
 > **🤝 Meet your mentor this week.** Set it up together in your Mentor Room. Pick one:
 > - **🛠️ Build Hour:** Sat 7 Nov, 10–11 am, Centro de Libertad
 > - **📍 A public place** you both choose

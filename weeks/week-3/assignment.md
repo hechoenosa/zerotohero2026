@@ -32,7 +32,7 @@ Tell them your idea, and ask one question you're stuck on.
 
 ## 🌱 STEP 3 · Find a real problem 🎯
 
-Open 📄 [Guide 1 · Find a real problem](https://docs.google.com/document/d/1lyipr_pBAVChnW43OSjUeILwXf04J-l9XrV9VPDOSWs/edit) and work through it on paper:
+Open 📄 [Guide 1 · Find a real problem](guide-1-find-a-real-problem.md) and work through it on paper:
 
 1. **The problem:** "The problem is ___."
 2. **The 5 Whys:** Ask "Why?" until you reach the REAL problem
@@ -50,7 +50,7 @@ This is your do-it-scared step. Use parts 4 and 5 of Guide 1.
 
 ## 🌱 STEP 5 · Decide the one thing 1️⃣
 
-Open 📄 [Guide 2 · Decide what to build](https://docs.google.com/document/d/1JjJPOh15ZFxCB6B4T68W5OP7NqW1zWOmuECd7ElRhJ8/edit).
+Open 📄 [Guide 2 · Decide what to build](guide-2-decide-what-to-build.md).
 
 Did the interviews change your problem or persona? Update them. Then answer: **If your build could only do one thing, what would it be?** If your sentence has "and", pick one.
 

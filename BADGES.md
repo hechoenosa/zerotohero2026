@@ -32,6 +32,8 @@ Physical builds count too: for **Shipped**, a README with photos of your build i
 |---|---|
 | [@middleloaf](https://github.com/middleloaf) | 🏅 Full Builder |
 | [@osa-developer](https://github.com/osa-developer) | 🏅 Full Builder |
+| [@adam-creates-osa](https://github.com/adam-creates-osa) | 🏅 Full Builder |
+| [@ariel4685](https://github.com/ariel4685) | 🏅 Full Builder |
 
 *Mentors: add a row when you award a badge.*
 

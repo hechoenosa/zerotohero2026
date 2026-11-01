@@ -24,7 +24,7 @@ We're still in Discover, about 3/4 of the way through. This week you meet your m
 
 ## 🌱 STEP 1 · Watch the videos 🎬
 
-1. Anastasia · How this week works *(link coming)*
+1. 🎬 [How this week works](https://hechoenosa.github.io/zerotohero2026/weeks/week-3/videos/how-this-week-works.mp4) (4 min): Anastasia · the double diamond, AI is not magic, your steps
 2. Zamir · [You are your biggest competition](https://drive.google.com/file/d/1IlUGu__63MqHPfh8uIZGHVAvbFVzXi8N/view)
 3. 🎬 [First principles](https://hechoenosa.github.io/zerotohero2026/weeks/week-3/videos/first-principles.mp4) (2 min): question it, break it down, rebuild
 4. 🎬 [What you set up in Week 1, and why](https://hechoenosa.github.io/zerotohero2026/weeks/week-3/videos/what-you-set-up-in-week-1.mp4) (2 min): VS Code, Git, GitHub and your developer environment

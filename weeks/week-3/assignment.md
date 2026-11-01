@@ -28,9 +28,9 @@ We're still in Discover, about 3/4 of the way through. This week you meet your m
 
 ## 🌱 STEP 2 · Meet your mentor 🤝
 
-Your mentor's name is in your Mentor Room. Meet them at a Build Hour or another public place, or set up a call with a parent in the room. Set it up together in your Mentor Room first.
+Your mentor's name is in your Mentor Room. Meet them at a Build Hour or another public place, or set up a call. Set it up together in your Mentor Room first.
 
-Tell them your idea, and ask one question you're stuck on.
+Tell them your idea, and ask one question you're stuck on. Share your GitHub Handle
 
 ## 🌱 STEP 3 · Find a real problem 🎯
 

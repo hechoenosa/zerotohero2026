@@ -81,7 +81,7 @@ Pick something you control. For example: Finish every week's assignment, or bloc
 
 ## 🚀 Pro
 
-**Every Sunday by 8 pm,** send a **[📈 Pro weekly update](https://github.com/hechoenosa/zerotohero2026/issues/new?template=pro-update.yml)**. It's three questions and takes about 3 minutes.
+**Every Sunday by 8 pm,** send a **[📈 Pro weekly update](https://github.com/hechoenosa/pro2026/issues/new?template=pro-update.yml)**. It's three questions and takes about 3 minutes.
 
 - ☐ **Required:** Meet your mentor
 - ☐ **Required:** Send your weekly update

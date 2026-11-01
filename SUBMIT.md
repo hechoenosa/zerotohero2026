@@ -8,7 +8,7 @@ You already code, so you skip the weekly assignments. Build wherever you like: y
 
 ## 1. Send us your idea by Sun 1 Nov, 8 pm
 
-**[Open the Pro project form](https://github.com/hechoenosa/project-template/issues/new?template=pro.yml)** (you need to be signed in to GitHub). In the title, write your project name ending in `-pro`, like `volt-pro`. Then tell us who is on your team, what your idea is, who it's for, whether you started it before Hecho en Osa, and what you want to build by Thu 10 Dec. It takes about 10 minutes, and you don't need to have built anything yet.
+**[Open the Pro project form](https://github.com/hechoenosa/pro2026/issues/new?template=pro.yml)** (you need to be signed in to GitHub). In the title, write your project name ending in `-pro`, like `volt-pro`. Then tell us who is on your team, what your idea is, who it's for, whether you started it before Hecho en Osa, and what you want to build by Thu 10 Dec. It takes about 10 minutes, and you don't need to have built anything yet.
 
 This becomes your 🚀 Pro project issue. Within 2 days a mentor answers there.
 

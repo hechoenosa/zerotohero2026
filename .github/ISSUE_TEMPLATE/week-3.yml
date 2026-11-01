@@ -1,0 +1,105 @@
+name: "📝 Week 3 · Finalize your idea"
+description: Copy your paper notes into the boxes. The sentences are started for you. About 15 minutes.
+title: "Week 3: "
+labels: ["week-3"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 👋 Have your paper next to you
+        Every box already has the start of each sentence. **Just fill in the blanks.** Spanish is fine. *Puedes escribir en español.*
+
+        **Title:** Write your handle after `Week 3: `, like `Week 3: ojochal-builds`
+  - type: checkboxes
+    id: step1
+    attributes:
+      label: "STEP 1 · Watch the videos 🎬"
+      options:
+        - label: I watched the Week 3 videos
+  - type: dropdown
+    id: step2
+    attributes:
+      label: "STEP 2 · Did you meet your mentor? 🤝"
+      options:
+        - "Yes, I met my mentor"
+        - "Not yet"
+    validations:
+      required: true
+  - type: textarea
+    id: step2-feedback
+    attributes:
+      label: "Anything to tell us about meeting your mentor? (optional)"
+  - type: input
+    id: name
+    attributes:
+      label: "My project name 🏷️"
+      description: A working name. It can change.
+      placeholder: rip-spotter
+    validations:
+      required: true
+  - type: textarea
+    id: step3-problem
+    attributes:
+      label: "STEP 3 · Find a real problem 🎯"
+      description: "Example: The problem is trash on the beach."
+      value: "The problem is "
+    validations:
+      required: true
+  - type: textarea
+    id: step3-whys
+    attributes:
+      label: "STEP 3 · The 5 Whys 🪜"
+      description: Ask "Why?" until you reach the REAL problem. Stop when it clicks, usually at Why 3 or 4.
+      value: |
+        Why? 
+        Why? 
+        Why? 
+        My REAL problem is 
+    validations:
+      required: true
+  - type: textarea
+    id: step3-persona
+    attributes:
+      label: "STEP 3 · My persona 👤"
+      description: "ONE made-up person with your problem. Example: Rosa, 45, runs a soda. \"I pick up trash every morning.\""
+      value: |
+        Name: 
+        Age: 
+        What they do: 
+        Something they would say: ""
+    validations:
+      required: true
+  - type: textarea
+    id: step4-interviews
+    attributes:
+      label: "STEP 4 · My 2 interviews 🎙️"
+      description: First names only. Write their exact words.
+      value: |
+        👤 Person 1: 
+        They said: ""
+        What surprised me: 
+
+        👤 Person 2: 
+        They said: ""
+        What surprised me: 
+    validations:
+      required: true
+  - type: textarea
+    id: step5-one-thing
+    attributes:
+      label: "STEP 5 · The one thing 1️⃣"
+      description: If your sentence has "and", pick one.
+      value: "If my build could only do one thing, it would "
+    validations:
+      required: true
+  - type: textarea
+    id: step6-promise
+    attributes:
+      label: "STEP 6 · My Hackathon promise 🤞"
+      description: "Pick something you control. Example: block 2 hours every Saturday for my project."
+      value: "By Demo Day, 12 Dec, I promise to "
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: "### ✅ Click **Create**. Week 3 done! 🎉"

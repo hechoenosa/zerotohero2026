@@ -1,0 +1,38 @@
+name: "📈 Pro weekly update"
+description: Three questions, every week. About 3 minutes.
+title: "Update: "
+labels: ["pro", "update"]
+body:
+  - type: markdown
+    attributes:
+      value: "**Title:** Write your project name after `Update: `, like `Update: volt-pro`."
+  - type: dropdown
+    id: week
+    attributes:
+      label: Week
+      options: ["Week 3", "Week 4", "Week 5", "Week 6", "Week 7", "Week 8"]
+    validations:
+      required: true
+  - type: textarea
+    id: now
+    attributes:
+      label: "What did you work on this week?"
+    validations:
+      required: true
+  - type: textarea
+    id: next
+    attributes:
+      label: "What will you get done next week?"
+    validations:
+      required: true
+  - type: textarea
+    id: blockers
+    attributes:
+      label: "Any blockers? What are they?"
+      description: Write "None" if you're clear. Your mentor reads this.
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: "Link to your repo or demo (optional)"

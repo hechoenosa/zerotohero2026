@@ -22,7 +22,7 @@ We're still in Discover, about 3/4 of the way through. This week you meet your m
 1. Anastasia · How this week works *(link coming)*
 2. Zamir · [You are your biggest competition](https://drive.google.com/file/d/1IlUGu__63MqHPfh8uIZGHVAvbFVzXi8N/view)
 3. Anastasia · First principles *(link coming)*
-4. What is GitHub? *(link coming)*
+4. 🎬 [What you set up in Week 1, and why](https://hechoenosa.github.io/zerotohero2026/weeks/week-3/videos/what-you-set-up-in-week-1.mp4) (2 min): VS Code, Git, GitHub and your developer environment
 
 ## 🌱 STEP 2 · Meet your mentor 🤝
 

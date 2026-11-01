@@ -17,7 +17,7 @@ We're still in Discover, about 3/4 of the way through. This week you meet your m
 | **Videos** | Watch all | Watch if you like |
 | **Meet your mentor** | Required | Required |
 | **Guides 1 and 2, on paper** | Required | Optional, a good start for your PRD |
-| **What you send** | 📝 Week 3 form | 📈 Pro weekly update |
+| **What you send** | [📝 Week 3 form](https://github.com/hechoenosa/zerotohero2026/issues/new?template=week-3.yml) | [📈 Pro weekly update](https://github.com/hechoenosa/pro2026/issues/new?template=pro-update.yml) |
 
 ## 🌱 STEP 1 · Watch the videos 🎬
 

@@ -28,12 +28,12 @@ We're still in Discover, about 3/4 of the way through. This week you meet your m
 
 ## 🌱 STEP 1 · Watch the videos 🎬
 
-▶️ **[Watch all Week 3 videos on one page](https://hechoenosa.github.io/zerotohero2026/weeks/week-3/)** (works best on phones), or tap a title below.
+▶️ **[All Week 3 videos in one folder](https://drive.google.com/drive/folders/1wEBvqwpf76DFYgts-2wLfe-gXarlkRPI)**, or tap a title below.
 
-1. 🎬 [How this week works](https://hechoenosa.github.io/zerotohero2026/weeks/week-3/videos/how-this-week-works.mp4) (4 min): Anastasia · the double diamond, AI is not magic, your steps
-2. Zamir · [You are your biggest competition](https://drive.google.com/file/d/1IlUGu__63MqHPfh8uIZGHVAvbFVzXi8N/view)
-3. 🎬 [First principles](https://hechoenosa.github.io/zerotohero2026/weeks/week-3/videos/first-principles.mp4) (2 min): question it, break it down, rebuild
-4. 🎬 [What you set up in Week 1, and why](https://hechoenosa.github.io/zerotohero2026/weeks/week-3/videos/what-you-set-up-in-week-1.mp4) (2 min): VS Code, Git, GitHub and your developer environment
+1. 🎬 [How this week works](https://drive.google.com/file/d/1Wg8agctMco6tGW0jFTN446lAvAeRtp_E/view) (4 min): Anastasia · the double diamond, AI is not magic, your steps
+2. 🎬 Zamir · [You are your biggest competition](https://drive.google.com/file/d/1fklzHMlSrK-UF5bLi6u9jTrRBb3_HMhu/view)
+3. 🎬 [First principles](https://drive.google.com/file/d/14g3ieIqwFd6WlNS8WfHp93N_oO0lYFv_/view) (2 min): question it, break it down, rebuild
+4. 🎬 [What you set up in Week 1, and why](https://drive.google.com/file/d/1TcII36nWSciFpzAmbqj5Wdk_5w3rVXZz/view) (2 min): VS Code, Git, GitHub and your developer environment
 
 ## 🌱 STEP 2 · Meet your mentor 🤝
 

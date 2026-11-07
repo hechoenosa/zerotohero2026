@@ -24,7 +24,7 @@ We're still in Discover, about 3/4 of the way through. This week you meet your m
 | **Videos** | Watch all | Watch if you like |
 | **Meet your mentor** | Required | Required |
 | **Guides 1 and 2, on paper** | Required | Optional, a good start for your PRD |
-| **What you send** | [📝 Week 3 form](https://github.com/hechoenosa/zerotohero2026/issues/new?template=week-3.yml) | [📈 Pro weekly update](https://github.com/hechoenosa/pro2026/issues/new?template=pro-update.yml) |
+| **What you send** | [📝 Week 3 form](https://hechoenosa.github.io/zerotohero2026/forms/week-3.html) | [📈 Pro weekly update](https://hechoenosa.github.io/zerotohero2026/forms/pro-update.html) |
 
 ## 🌱 STEP 1 · Watch the videos 🎬
 
@@ -73,7 +73,7 @@ Pick something you control. For example: Finish every week's assignment, or bloc
 
 ## 🌱 STEP 7 · Type it in on GitHub 📝 (required)
 
-1. Open the **[📝 Week 3 form](https://github.com/hechoenosa/zerotohero2026/issues/new?template=week-3.yml)**
+1. Open the **[📝 Week 3 form](https://hechoenosa.github.io/zerotohero2026/forms/week-3.html)**
 2. Title: Write your handle after `Week 3: `
 3. Every box matches a step on your paper, and the sentences are already started. Just fill in the blanks.
 4. Click **Create** 🎉
@@ -92,7 +92,7 @@ Pick something you control. For example: Finish every week's assignment, or bloc
 
 ## 🚀 Pro
 
-**Every Sunday by 8 pm,** send a **[📈 Pro weekly update](https://github.com/hechoenosa/pro2026/issues/new?template=pro-update.yml)**. It's three questions and takes about 3 minutes.
+**Every Sunday by 8 pm,** send a **[📈 Pro weekly update](https://hechoenosa.github.io/zerotohero2026/forms/pro-update.html)**. It's three questions and takes about 3 minutes.
 
 - ☐ **Required:** Meet your mentor
 - ☐ **Required:** Send your weekly update

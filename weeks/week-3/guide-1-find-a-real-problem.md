@@ -59,7 +59,7 @@ Always with an adult nearby · first names only · ask before recording.
 
 ### 6 · Type your notes in
 
-👉 **[Open the 📝 Week 3 form](https://github.com/hechoenosa/zerotohero2026/issues/new?template=week-3.yml)**
+👉 **[Open the 📝 Week 3 form](https://hechoenosa.github.io/zerotohero2026/forms/week-3.html)**
 
 ---
 
@@ -116,4 +116,4 @@ Nombre, edad, una frase.
 
 ### 6 · Escribe tus notas
 
-👉 **[Abre el formulario 📝 Week 3](https://github.com/hechoenosa/zerotohero2026/issues/new?template=week-3.yml)**
+👉 **[Abre el formulario 📝 Week 3](https://hechoenosa.github.io/zerotohero2026/forms/week-3.html)**

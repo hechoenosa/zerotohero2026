@@ -15,7 +15,7 @@ Open the [Week 1 assignment](weeks/week-1/assignment.md) and skim the 15 steps.
 | Most of it is new to you | **🌱 Zero to Hero.** Follow the 8 weeks, one assignment at a time. Mentors check your progress every week. |
 | You already have a GitHub account with your own code on it, and VS Code or another code editor installed | **🚀 Pro.** Skip the weekly assignments and build your own project. |
 
-**Pro builders:** come to any Build Hour or workshop you like. Nobody checks your weekly assignments. First, **[send us your idea](https://github.com/hechoenosa/pro2026/issues/new?template=pro.yml) by Sun 1 Nov**. Then build it your way and submit by **Thu 10 Dec, 8 pm**. All the steps: **[Pro builders, start here](SUBMIT.md)**.
+**Pro builders:** come to any Build Hour or workshop you like. Nobody checks your weekly assignments. First, **[send us your idea](https://hechoenosa.github.io/zerotohero2026/forms/pro.html) by Sun 1 Nov**. Then build it your way and submit by **Thu 10 Dec, 8 pm**. All the steps: **[Pro builders, start here](SUBMIT.md)**.
 
 Not sure? Start with Zero to Hero.
 

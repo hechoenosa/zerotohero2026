@@ -27,9 +27,7 @@
 
 ## 🌱 STEP 2 · Write your user story 🧑
 
-![Write your user story: As who, I want to the one thing, so that why it matters. It works when who can do what without help.](images/02-user-story.png)
-
-**✏️ Name your project.** Short, easy to say, easy to spell. It becomes your repo name in Step 5.
+![Write your user story: As who, I want to the one thing, so that why it matters. It works when who can do what without help.](images/02-user-story-v2.png)
 
 ## 🌱 STEP 3 · Draw your designs ✏️
 

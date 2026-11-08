@@ -6,7 +6,7 @@
 
 **Quick links:** [🎬 All videos](https://hechoenosa.github.io/zerotohero2026/weeks/week-4/) · [📝 Week 4 form](https://hechoenosa.github.io/zerotohero2026/forms/week-4.html) · [📈 Pro weekly update](https://hechoenosa.github.io/zerotohero2026/forms/pro-update.html) · [🤖 AI tools](ai-tools.md) · [📄 PRD headings](prd-template.md) · [🆘 Stuck?](https://github.com/hechoenosa/zerotohero2026/blob/main/STUCK.md)
 
-![Week 4 at a glance: 9 steps from watching the videos to sending your form](images/00-week-4.png)
+![Week 4 at a glance: 9 steps from watching the videos to sending your form](images/00-week-4-v2.png)
 
 **At the end of this week you have:** a project name, a repo in your own GitHub, and **PRD.md** in it with photos of your designs.
 
@@ -53,7 +53,7 @@ Take screenshots of 2 apps or websites you like, too. What's good about them? Wh
 
 ## 🌱 STEP 6 · Write your PRD.md 📝
 
-![Write your PRD.md: write it in your notes first, then Add file, Create new file, PRD.md, paste, Commit changes](images/06-write-your-prd.png)
+![Write your PRD.md: write it in your notes first, then Add file, Create new file, PRD.md, paste, Commit changes](images/06-write-your-prd-v2.png)
 
 👉 **[Copy the PRD headings](prd-template.md)**
 
@@ -63,7 +63,7 @@ Take screenshots of 2 apps or websites you like, too. What's good about them? Wh
 
 ## 🌱 STEP 8 · Pick your AI tool 🤖
 
-![Pick your AI tool: Copilot Free on a computer, Lovable Free on a phone or iPad, or keep the tool your family already pays for](images/08-pick-your-ai-tool-v2.png)
+![Pick your AI tool: Copilot Free on a computer, Lovable Free on a phone or iPad, or keep the tool your family already pays for](images/08-pick-your-ai-tool-v3.png)
 
 👉 **[AI tool options](ai-tools.md)** · Check you can log in. Don't build yet.
 
@@ -89,7 +89,7 @@ Take screenshots of 2 apps or websites you like, too. What's good about them? Wh
 
 ![Get ready for the TRD: 8 questions about database, login, deploy, AI, API, device, money and safety](images/bonus-get-ready-for-the-trd.png)
 
-![Polish your PRD with AI: a prompt with ROLE, ME, GOAL, LESSON, MY NOTES, ASK, WRITE, CHECK and TEACH](images/bonus-polish-your-prd-with-ai.png)
+![Polish your PRD with AI: a prompt with ROLE, ME, GOAL, LESSON, MY NOTES, ASK, WRITE, CHECK and TEACH](images/bonus-polish-your-prd-with-ai-v2.png)
 
 Copy this prompt into your AI tool. Fill in the highlighted parts:
 

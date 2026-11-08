@@ -4,8 +4,6 @@
 
 ### 🔴 Due: Sunday 15 November, 8 pm
 
-> **🤝 Show your mentor your screens this week.** Set it up together in your Mentor Room.
-
 **At the end of this week you have:** a project name, a repo in your own GitHub, and **PRD.md** in it with photos of your screens.
 
 | | 🌱 Zero to Hero | 🚀 Pro |
@@ -74,7 +72,6 @@ Take screenshots of 2 apps or websites you like, too. What's good about them? Wh
 ## ✅ Done when
 
 - ☐ Watched the videos
-- ☐ Showed your mentor your screens
 - ☐ User story and "how we'll know it works"
 - ☐ 3 screens (or your game), drawn, colored and tested
 - ☐ Repo with your photos

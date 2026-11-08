@@ -4,20 +4,19 @@
 
 ### 🔴 Due: Sunday 15 November, 8 pm
 
-**At the end of this week you have:** a project name, a repo in your own GitHub, and **PRD.md** in it with photos of your screens.
+**At the end of this week you have:** a project name, a repo in your own GitHub, and **PRD.md** in it with photos of your designs.
 
 | | 🌱 Zero to Hero | 🚀 Pro |
 |---|---|---|
 | **Videos** | Watch all | Watch if you like |
-| **Screens + PRD.md** | Required | Optional, if your PRD isn't done |
+| **Designs + PRD.md** | Required | Optional, if your PRD isn't done |
 | **What you send** | [📝 Week 4 form](https://hechoenosa.github.io/zerotohero2026/forms/week-4.html) | [📈 Pro weekly update](https://hechoenosa.github.io/zerotohero2026/forms/pro-update.html) |
 
 ## 🌱 STEP 1 · Watch 🎬
 
-1. 🎬 What is a PRD? (Anastasia) · *coming soon*
-2. 🎬 Draw it like a Designer · *coming soon*
-3. 🎬 Write your user story · *coming soon*
-4. 🎬 You are the architect. AI is not magic. YOU ARE. · *coming soon*
+1. 🎬 [What Week 4 is about](https://hechoenosa.github.io/zerotohero2026/weeks/week-4/videos/1-what-week-4-is-about.mp4) (5 min): Anastasia · the double diamond, your PRD, AI is not magic, your 4 moves
+2. 🎬 User story, user journey, draw like a designer · *coming soon*
+3. 🎬 You are the architect · *coming soon*
 
 ## 🌱 STEP 2 · Write your user story 🧑
 
@@ -25,9 +24,9 @@
 
 Give your project a name too, your brand. Short, easy to say, easy to spell. It becomes your repo name.
 
-## 🌱 STEP 3 · Draw your screens ✏️
+## 🌱 STEP 3 · Draw your designs ✏️
 
-![Draw your screens: phone or computer, then 3 screens with arrows for every tap](images/03-draw-your-screens.png)
+![Draw your designs: phone or computer, then 3 designs with arrows for every tap](images/03-draw-your-designs.png)
 
 **Making a game?** Draw these 3 instead:
 
@@ -73,7 +72,7 @@ Take screenshots of 2 apps or websites you like, too. What's good about them? Wh
 
 - ☐ Watched the videos
 - ☐ User story and "how we'll know it works"
-- ☐ 3 screens (or your game), drawn, colored and tested
+- ☐ 3 designs (or your game), drawn, colored and tested
 - ☐ Repo with your photos
 - ☐ PRD.md
 - ☐ AI tool picked, you can log in
@@ -91,15 +90,19 @@ Copy this prompt into your AI tool. Fill in the highlighted parts:
 You are a senior product manager who has shipped real apps and coaches young founders, ages 11 to 17. You write PRDs that AI builders like Lovable or Copilot can build from.
 I'm the architect: the idea and every decision are mine. I build on [phone / computer]. My must-haves need to work by 10 Dec.
 Goal: a PRD so clear that an AI builder can make a working first version of my product. Tech choices (my TRD) come later.
-Use these headings: The problem · Who it's for · User story (As ___, I want to ___, so that ___) · The one thing it does · How we'll know it works (It works when ___ can ___ without help) · Phone or computer · My screens · My colors (60-30-10) · Must-have / nice-to-have · What it won't do · Apps that inspire me · AI tool
+Use these headings: The problem · Who it's for · User story (As ___, I want to ___, so that ___) · The one thing it does · How we'll know it works (It works when ___ can ___ without help) · Phone or computer · My designs · My colors (60-30-10) · Must-have / nice-to-have · What it won't do · Apps that inspire me · AI tool
 
-[paste your PRD.md here, and attach photos of your screens]
+[paste your PRD.md here, and attach photos of your designs]
 
 Ask me up to 5 questions, one at a time, most important first. Explain any new word simply. If my idea is too big, help me make it smaller.
-Then rewrite my PRD.md with those headings, in my words. For each screen: what's on it and what every tap does. Max 3 must-haves, each one testable. Add what it needs to remember. No features I didn't ask for.
-Before you finish: could someone build my first screen from this alone? Mark anything you guessed with [?].
+Then rewrite my PRD.md with those headings, in my words. For each design: what's on it and what every tap does. Max 3 must-haves, each one testable. Add what it needs to remember. No features I didn't ask for.
+Before you finish: could someone build my first design from this alone? Mark anything you guessed with [?].
 Then tell me one thing I did well, one thing to make clearer, and one question to ask my mentor.
 ```
+
+## 🎬 Bonus video
+
+🎬 [AI advice from Alex](https://hechoenosa.github.io/zerotohero2026/weeks/week-4/videos/bonus-ai-advice-from-alex.mp4) (6 min): talk to your AI, give it context, always check what it gives you
 
 ## 🔧 Physical builds
 
@@ -112,9 +115,9 @@ Your design is due this week. Start getting your materials.
 - ☐ **Required:** Meet your mentor
 - ☐ **Required:** Send your weekly update
 - ☐ Optional: Watch the videos
-- ☐ Optional: Screens and PRD.md, if your PRD isn't done yet
+- ☐ Optional: Designs and PRD.md, if your PRD isn't done yet
 
-**Mentors check on Monday:** every builder has a repo with photos of their screens and a PRD.md in their own words.
+**Mentors check on Monday:** every builder has a repo with photos of their designs and a PRD.md in their own words.
 
 ## 🆘 Stuck?
 

@@ -16,8 +16,8 @@ As ___, I want to ___, so that ___.
 ## How we'll know it works
 It works when ___ can ___ without help.
 ## Phone or computer
-## My screens
-(one line per screen: what it shows, what each tap does)
+## My designs
+(one line per design: what it shows, what each tap does)
 ## My colors
 60%: · 30%: · 10%:
 ## Must-have / nice-to-have
@@ -27,4 +27,4 @@ Must-haves are done by code freeze, Thu 10 Dec.
 ## AI tool
 ```
 
-**Extra:** show your photos inside PRD.md. Tap a photo in your repo to see its name, then type it under My screens like this: `![Screen 1](IMG_1234.jpg)`
+**Extra:** show your photos inside PRD.md. Tap a photo in your repo to see its name, then type it under My designs like this: `![Design 1](IMG_1234.jpg)`

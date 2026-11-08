@@ -18,7 +18,7 @@ body:
     id: repo
     attributes:
       label: "Link to my repo 📁"
-      description: It has PRD.md and photos of my screens.
+      description: It has PRD.md and photos of my designs.
       placeholder: https://github.com/your-handle/this-is-my-project
     validations:
       required: true
@@ -61,7 +61,7 @@ body:
   - type: dropdown
     id: mentor
     attributes:
-      label: "Did you show your mentor your screens? 🤝"
+      label: "Did you show your mentor your designs? 🤝"
       options:
         - "Yes"
         - "Not yet"

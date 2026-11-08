@@ -1,0 +1,73 @@
+name: "📝 Week 4 · Design your product → PRD.md"
+description: Send your repo link and your AI tool. About 3 minutes.
+title: "Week 4: "
+labels: ["week-4"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Title:** Write your handle after `Week 4: `, like `Week 4: ojochal-builds`. Spanish is fine. *Puedes escribir en español.*
+  - type: input
+    id: name
+    attributes:
+      label: "My project name 🏷️"
+      placeholder: this-is-my-project
+    validations:
+      required: true
+  - type: input
+    id: repo
+    attributes:
+      label: "Link to my repo 📁"
+      description: It has PRD.md and photos of my screens.
+      placeholder: https://github.com/your-handle/this-is-my-project
+    validations:
+      required: true
+  - type: dropdown
+    id: device-for
+    attributes:
+      label: "My product is for… 📱"
+      options:
+        - "Phone"
+        - "Computer"
+        - "Both"
+    validations:
+      required: true
+  - type: dropdown
+    id: ai-tool
+    attributes:
+      label: "The AI tool I picked 🤖"
+      options:
+        - "GitHub Copilot Free"
+        - "Lovable Free"
+        - "ChatGPT"
+        - "Claude (parent's account)"
+        - "Another tool my family pays for"
+        - "Not yet"
+    validations:
+      required: true
+  - type: dropdown
+    id: device-build
+    attributes:
+      label: "I build on… 💻"
+      options:
+        - "iPad"
+        - "Phone"
+        - "Mac"
+        - "Windows"
+        - "Chromebook"
+        - "Other"
+    validations:
+      required: true
+  - type: dropdown
+    id: mentor
+    attributes:
+      label: "Did you show your mentor your screens? 🤝"
+      options:
+        - "Yes"
+        - "Not yet"
+    validations:
+      required: true
+  - type: textarea
+    id: paper-test
+    attributes:
+      label: "What confused people in your paper test? (optional)"

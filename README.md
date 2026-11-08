@@ -19,7 +19,7 @@ Open the [Week 1 assignment](weeks/week-1/assignment.md) and skim the 15 steps.
 
 Not sure? Start with Zero to Hero.
 
-## 👉 This week: [Week 1 · Your first website](weeks/week-1/)
+## 👉 This week: [Week 4 · Design your product → PRD.md](weeks/week-4/)
 
 <!-- Organisers: every Sunday, run mentors/scripts/release-week.sh N. It moves this link and ticks the table. -->
 
@@ -37,7 +37,7 @@ Not sure? Start with Zero to Hero.
 | [1](weeks/week-1/) | Sat 24 Oct | Your first website | Emilie (workshop) · Lee (GitHub setup, mentors help 1-1 in small groups) | Discover | 🔒 Mon 19 Oct |
 | [2](weeks/week-2/) | Sat 31 Oct | Product sense + GitHub practice | Vlad · product sense | Discover | 🔒 Coming soon |
 | [3](weeks/week-3/) | Sat 7 Nov | Your PRD (what we build) | Lee | Define | 🔒 Coming soon |
-| [4](weeks/week-4/) | Sat 14 Nov | Your TRD + first AI tools | Lee (system design) · Anastasia (data) · Zamir (what AI is, ethics) | Develop | 🔒 Coming soon |
+| [4](weeks/week-4/) | Sat 14 Nov | Design your product → PRD.md | Anastasia | Define | ✅ |
 | [5](weeks/week-5/) | Sat 21 Nov · VIBE JAM | Prompting + Vibe Jam | Anastasia (prompting) · all mentors at the Jam | Develop | 🔒 Coming soon |
 | [6](weeks/week-6/) | Sat 28 Nov | Build together | All mentors · coworking, no special programming | Test | 🔒 Coming soon |
 | [7](weeks/week-7/) | Sat 5 Dec | Presentation prep | Emilie (story) · Lee (README) · team mentors | Deliver | 🔒 Coming soon |

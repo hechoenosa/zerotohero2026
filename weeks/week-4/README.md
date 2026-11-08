@@ -1,11 +1,15 @@
-[← Week 3](../week-3/) · **Week 4 · Your TRD + first AI tools** · [Week 5 →](../week-5/)
+[← Week 3](../week-3/) · **Week 4 · Design your product → PRD.md** · [Week 5 →](../week-5/)
 
-# Week 4 · Your TRD + first AI tools (Lee, Anastasia, Zamir)
+# Week 4 · Design your product → PRD.md
 
-> 🔒 **This week isn't open yet.**
+### 🔴 Due: Sunday 15 November, 8 pm
 
-**Build Hour:** Sat 14 Nov · **Leads:** Lee (TRD), Anastasia (data), Zamir (what AI is, ethics) · **Due:** Sun 15 Nov, 8 pm · **Phase:** Develop · **Checkpoint 2**
+![Week 4 at a glance: 9 steps from watching the videos to sending your form](images/00-week-4.png)
+
+This week you're a **Designer**. You draw your product on paper, and everything ends up in one file in your own repo: **PRD.md**.
+
+👉 **[Open the Week 4 assignment](assignment.md)**
 
 ---
 
-[← Week 3](../week-3/) · **Week 4 · Your TRD + first AI tools** · [Week 5 →](../week-5/)
+[← Week 3](../week-3/) · **Week 4 · Design your product → PRD.md** · [Week 5 →](../week-5/)

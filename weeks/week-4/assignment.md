@@ -63,7 +63,7 @@ Take screenshots of 2 apps or websites you like, too. What's good about them? Wh
 
 ## 🌱 STEP 8 · Pick your AI tool 🤖
 
-![Pick your AI tool: Copilot Free on a computer, Lovable Free on a phone or iPad, or keep the tool your family already pays for](images/08-pick-your-ai-tool-v3.png)
+![Pick your AI tool: Copilot Free on a computer, Lovable Free on a phone or iPad, or keep the tool your family already pays for](images/08-pick-your-ai-tool-v4.png)
 
 👉 **[AI tool options](ai-tools.md)** · Check you can log in. Don't build yet.
 

@@ -29,9 +29,11 @@
 
 ![Write your user story: As who, I want to the one thing, so that why it matters. It works when who can do what without help.](images/02-user-story.png)
 
-Give your project a name too, your brand. Short, easy to say, easy to spell. It becomes your repo name.
+**✏️ Name your project.** Short, easy to say, easy to spell. It becomes your repo name in Step 5.
 
 ## 🌱 STEP 3 · Draw your designs ✏️
+
+**First, write your user journey:** the steps your user takes in your product to do the one thing, tap by tap. Keep it to about 3 steps. **Each step becomes one design.**
 
 ![Draw your designs: phone or computer, then 3 designs with arrows for every tap](images/03-draw-your-designs.png)
 
@@ -60,6 +62,8 @@ Take screenshots of 2 apps or websites you like, too. What's good about them? Wh
 ## 🌱 STEP 7 · You are the architect 🏛️
 
 ![AI is not magic. YOU ARE. You own the vision, AI is the crew. 3 rules.](images/07-you-are-the-architect.png)
+
+Read it, then add one sentence to your PRD.md: what **you** will decide, not the AI.
 
 ## 🌱 STEP 8 · Pick your AI tool 🤖
 

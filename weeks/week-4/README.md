@@ -4,6 +4,8 @@
 
 ### 🔴 Due: Sunday 15 November, 8 pm
 
+**Quick links:** [🎬 All videos](https://hechoenosa.github.io/zerotohero2026/weeks/week-4/) · [📝 Week 4 form](https://hechoenosa.github.io/zerotohero2026/forms/week-4.html) · [📈 Pro weekly update](https://hechoenosa.github.io/zerotohero2026/forms/pro-update.html) · [🤖 AI tools](ai-tools.md) · [📄 PRD headings](prd-template.md) · [🆘 Stuck?](https://github.com/hechoenosa/zerotohero2026/blob/main/STUCK.md)
+
 ![Week 4 at a glance: 9 steps from watching the videos to sending your form](images/00-week-4.png)
 
 **At the end of this week you have:** a project name, a repo in your own GitHub, and **PRD.md** in it with photos of your designs.
@@ -16,10 +18,12 @@
 
 ## 🌱 STEP 1 · Watch 🎬
 
-1. 🎬 [What Week 4 is about](https://hechoenosa.github.io/zerotohero2026/weeks/week-4/videos/1-what-week-4-is-about.mp4) (5 min): Anastasia · the double diamond, your PRD, AI is not magic, your 4 moves
-2. 🎬 User story, user journey, draw like a designer · *coming soon*
+▶️ **[All Week 4 videos on one page](https://hechoenosa.github.io/zerotohero2026/weeks/week-4/)**, or tap a title below.
+
+1. 🎬 [What Week 4 is about](https://drive.google.com/file/d/1jMXgsnOe548W3bYv9DmByZd-0nXt3rIc/view) (5 min): Anastasia · the double diamond, your PRD, AI is not magic, your 4 moves
+2. 🎬 [User story, user journey, draw like a designer](https://drive.google.com/file/d/1qZQnCz_RHcOGsvbyni6jEcvUKbNJkhJg/view) (5 min): Anastasia · one person, one need, one sentence
 3. 🎬 You are the architect · *coming soon*
-4. 🎬 Bonus: [AI advice from Alex](https://hechoenosa.github.io/zerotohero2026/weeks/week-4/videos/bonus-ai-advice-from-alex.mp4) (6 min)
+4. 🎬 Bonus: [AI advice from Alex](https://drive.google.com/file/d/1xDkpFl1AfghxSH20VoL9-4rLBn3meJww/view) (6 min): talk to your AI, give it context, always check what it gives you
 
 ## 🌱 STEP 2 · Write your user story 🧑
 
@@ -105,7 +109,7 @@ Then tell me one thing I did well, one thing to make clearer, and one question t
 
 ## 🎬 Bonus video
 
-🎬 [AI advice from Alex](https://hechoenosa.github.io/zerotohero2026/weeks/week-4/videos/bonus-ai-advice-from-alex.mp4) (6 min): talk to your AI, give it context, always check what it gives you
+🎬 [AI advice from Alex](https://drive.google.com/file/d/1xDkpFl1AfghxSH20VoL9-4rLBn3meJww/view) (6 min): talk to your AI, give it context, always check what it gives you
 
 ## 🔧 Physical builds
 

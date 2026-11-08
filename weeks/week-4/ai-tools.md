@@ -2,22 +2,12 @@
 
 # Pick your AI tool 🤖
 
-Pick one to build with. Check that you can log in. **Don't build anything yet.** Not sure? Ask your mentor in your Mentor Room.
+![Pick your AI tool: free to build with GitHub Copilot, Lovable, Gemini Canvas or ChatGPT; free to learn with NotebookLM; paid plans Copilot Pro $10, Lovable Pro $25, ChatGPT Plus $20, Claude Pro $20 a month](images/08-pick-your-ai-tool.png)
 
-## To build your product
+**Open them here:** [GitHub Copilot](https://github.com/copilot) · [Lovable](https://lovable.dev) · [Gemini](https://gemini.google.com) · [ChatGPT](https://chatgpt.com) · [NotebookLM](https://notebooklm.google.com)
 
-| You build on… | Tool | Cost | Age |
-|---|---|---|---|
-| 💻 Laptop or computer | **GitHub Copilot Free** (in VS Code or github.com) | Free | 13+ |
-| 📱 Phone or iPad | **Lovable Free** (app: "Lovable: Build Apps With AI" by Lovable Labs; there's a look-alike) | Free, 5 credits a day | Under 18 with a parent's permission |
-| 🌐 Any device | **Gemini**, with **Canvas** to build and preview simple apps | Free | 13+ with your own Google account. Under 13: a parent turns it on in Family Link |
-| 🌐 Any device | **ChatGPT** | Free | 13+ with a parent's permission |
-| 🏠 Your family already pays for a tool | **Keep it** (Claude is 18+, so use a parent's account) | | If it can save to GitHub |
+**Copilot on iPad:** use [github.com/copilot](https://github.com/copilot) in Safari, or the GitHub app.
 
-## To learn and study
+Pick one. Check that you can log in. **Don't build anything yet.** Not sure? Ask your mentor in your Mentor Room.
 
-| Tool | What it's great for | Cost | Age |
-|---|---|---|---|
-| **NotebookLM** | Upload your notes, interviews or a lesson. It makes summaries, flashcards and short podcasts, and answers from *your* sources only | Free | 13+ with your own Google account |
-
-**Ages are set by each company.** They can be higher in some countries.
+<sub>Prices in US dollars, checked 8 Nov 2026 on each company's pricing page: [Copilot](https://github.com/features/copilot/plans) · [Lovable](https://lovable.dev/pricing) · [ChatGPT](https://chatgpt.com/pricing) · [Claude](https://support.anthropic.com/en/articles/8325610-how-much-does-claude-pro-cost). Ages are set by each company and can be higher in some countries.</sub>

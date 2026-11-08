@@ -43,7 +43,7 @@ Take screenshots of 2 apps or websites you like, too. What's good about them? Wh
 
 ## 🌱 STEP 5 · Make your repo 📁
 
-![Make your repo: a repo is your project folder. Go to github.com/new, name it, Public, Add README, Create repository. Then upload your photos.](images/05-make-your-repo.png)
+![Make your repo: a repo is your project folder. Go to github.com/new, name it, Public, Add README, Create repository. Then upload your photos.](images/05-make-your-repo-v2.png)
 
 👉 **[github.com/new](https://github.com/new)**
 
@@ -59,7 +59,7 @@ Take screenshots of 2 apps or websites you like, too. What's good about them? Wh
 
 ## 🌱 STEP 8 · Pick your AI tool 🤖
 
-![Pick your AI tool: Copilot Free on a computer, Lovable Free on a phone or iPad, or keep the tool your family already pays for](images/08-pick-your-ai-tool.png)
+![Pick your AI tool: Copilot Free on a computer, Lovable Free on a phone or iPad, or keep the tool your family already pays for](images/08-pick-your-ai-tool-v2.png)
 
 👉 **[AI tool options](ai-tools.md)** · Check you can log in. Don't build yet.
 

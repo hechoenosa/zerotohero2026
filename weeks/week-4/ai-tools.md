@@ -2,7 +2,7 @@
 
 # Pick your AI tool 🤖
 
-![Pick your AI tool: free to build with GitHub Copilot, Lovable, Gemini Canvas or ChatGPT; free to learn with NotebookLM; paid plans Copilot Pro about $10, Lovable Pro $25, Claude Pro $20, ChatGPT Plus $20 a month](images/08-pick-your-ai-tool.png)
+![Pick your AI tool: free to build with GitHub Copilot, Lovable, Gemini Canvas or ChatGPT; free to learn with NotebookLM; paid plans Copilot Pro about $10, Lovable Pro $25, Claude Pro $20, ChatGPT Plus $20 a month](images/08-pick-your-ai-tool-v2.png)
 
 ## Not sure? Start here
 

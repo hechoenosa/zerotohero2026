@@ -40,7 +40,9 @@ You form a team, draw your screens on paper, and write your **PRD**: who it's fo
 ### 3 · Develop · Weeks 4–5
 **The question:** how will we build it?
 
-In Week 4 you write your **TRD**: every screen, every piece of data, and the tests that prove it works. This is also when AI joins the team. You set up Copilot and learn what AI is, and what it isn't.
+In Week 4 you design your product: you draw your designs on paper and write your **PRD.md**. This is also when AI joins the team: you pick your AI tool and learn what AI is, and what it isn't.
+
+In Week 5 you write your **TRD**: how you'll build it.
 
 In Week 5 you learn how a good prompt is built and turn your PRD and TRD into `PROMPT.md`. Then, at the **Vibe Jam on Sat 21 Nov**, everyone builds together for the first time with AI.
 

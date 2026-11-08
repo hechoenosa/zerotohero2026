@@ -52,7 +52,7 @@ Not sure? Start with Zero to Hero.
 |---|---|---|---|---|
 | 1. Discover | 1–2 | Who has a real problem? | Interview notes, a persona, a one-sentence idea | You have a real quote from a real person about a real problem |
 | 2. Define | 3 | What exactly are we building, and what are we not building? | Paper drawings, a PRD (written by hand is ok) | Your PRD names ONE thing that must work, finished by the end of Week 3 |
-| 3. Develop | 4–5 | How will we build it? Can we make the ONE thing work? | A TRD and your first AI tools (Week 4), then the first version built with AI at the Vibe Jam, then fixes | The ONE thing works from start to finish, on a phone |
+| 3. Develop | 4–5 | How will we build it? Can we make the ONE thing work? | Your PRD and AI tool (Week 4), your TRD (Week 5), then the first version built with AI at the Vibe Jam, then fixes | The ONE thing works from start to finish, on a phone |
 | 4. Test | 6 | Does it work for someone who isn't us? Improve | 2 user tests, a break-it list, fixes | 2 people outside your team used it, and you fixed the top 3 problems |
 | 5. Deliver | 7–8 | Can we explain it and show it? | README, presentation, a 3-minute demo | The code is frozen and the demo fits in 3 minutes |
 

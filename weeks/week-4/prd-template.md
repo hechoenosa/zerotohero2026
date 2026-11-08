@@ -1,4 +1,4 @@
-[← Week 4 assignment](assignment.md) · **PRD headings**
+[← Week 4](README.md) · **PRD headings**
 
 # PRD headings
 

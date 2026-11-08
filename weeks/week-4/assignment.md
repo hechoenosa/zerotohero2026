@@ -1,8 +1,10 @@
-[← Week 4 overview](README.md) · [Rules](https://github.com/hechoenosa/zerotohero2026/blob/main/RULES.md) · [Stuck?](https://github.com/hechoenosa/zerotohero2026/blob/main/STUCK.md) · **Week 4 · Assignment** · [Week 5 →](../week-5/)
+[← Week 3](../week-3/) · **Week 4 · Design your product → PRD.md** · [Week 5 →](../week-5/)
 
 # Week 4 · Design your product → PRD.md
 
 ### 🔴 Due: Sunday 15 November, 8 pm
+
+![Week 4 at a glance: 9 steps from watching the videos to sending your form](images/00-week-4.png)
 
 **At the end of this week you have:** a project name, a repo in your own GitHub, and **PRD.md** in it with photos of your designs.
 
@@ -17,6 +19,7 @@
 1. 🎬 [What Week 4 is about](https://hechoenosa.github.io/zerotohero2026/weeks/week-4/videos/1-what-week-4-is-about.mp4) (5 min): Anastasia · the double diamond, your PRD, AI is not magic, your 4 moves
 2. 🎬 User story, user journey, draw like a designer · *coming soon*
 3. 🎬 You are the architect · *coming soon*
+4. 🎬 Bonus: [AI advice from Alex](https://hechoenosa.github.io/zerotohero2026/weeks/week-4/videos/bonus-ai-advice-from-alex.mp4) (6 min)
 
 ## 🌱 STEP 2 · Write your user story 🧑
 
@@ -122,3 +125,7 @@ Your design is due this week. Start getting your materials.
 ## 🆘 Stuck?
 
 Check [STUCK.md](https://github.com/hechoenosa/zerotohero2026/blob/main/STUCK.md), then ask your mentor in your Mentor Room.
+
+---
+
+[← Week 3](../week-3/) · **Week 4 · Design your product → PRD.md** · [Week 5 →](../week-5/)

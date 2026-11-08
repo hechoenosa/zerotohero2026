@@ -4,7 +4,7 @@
 
 ### 🔴 Due: Sunday 15 November, 8 pm
 
-**Quick links:** [🎬 All videos](https://hechoenosa.github.io/zerotohero2026/weeks/week-4/) · [📝 Week 4 form](https://hechoenosa.github.io/zerotohero2026/forms/week-4.html) · [📈 Pro weekly update](https://hechoenosa.github.io/zerotohero2026/forms/pro-update.html) · [🤖 AI tools](ai-tools.md) · [📄 PRD headings](prd-template.md) · [🆘 Stuck?](https://github.com/hechoenosa/zerotohero2026/blob/main/STUCK.md)
+**Quick links:** [🎬 All videos](https://hechoenosa.github.io/zerotohero2026/weeks/week-4/) · [📝 Week 4 form](https://hechoenosa.github.io/zerotohero2026/forms/week-4.html) · [📈 Pro weekly update](https://hechoenosa.github.io/zerotohero2026/forms/pro-update.html) · [🤖 AI tools](ai-tools.md) · [🃏 Prompting flashcards](https://hechoenosa.github.io/zerotohero2026/weeks/week-4/prompting.html) · [📄 PRD headings](prd-template.md) · [🆘 Stuck?](https://github.com/hechoenosa/zerotohero2026/blob/main/STUCK.md)
 
 ![Week 4 at a glance: 9 steps from watching the videos to sending your form](images/00-week-4-v2.png)
 
@@ -86,6 +86,8 @@ Take screenshots of 2 apps or websites you like, too. What's good about them? Wh
 - ☐ 📝 Week 4 form sent
 
 ## ⭐ Bonus
+
+🃏 **[Talk to AI like a pro: 14 prompting flashcards](https://hechoenosa.github.io/zerotohero2026/weeks/week-4/prompting.html)**. Tap to flip, swipe for the next one. Works on any phone.
 
 ![Get ready for the TRD: 8 questions about database, login, deploy, AI, API, device, money and safety](images/bonus-get-ready-for-the-trd.png)
 

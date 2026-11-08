@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Prompting flashcards · Week 4 · Hecho en Osa</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#F6F4EF;color:#1E2A24;font:17px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif;min-height:100vh;display:flex;flex-direction:column}
+header{max-width:720px;width:100%;margin:0 auto;padding:28px 18px 8px}
+.k{font:700 12px system-ui;letter-spacing:.12em;text-transform:uppercase;color:#127C78}
+h1{font:800 32px/1.15 system-ui;margin:6px 0 4px}
+header p{margin:0;color:#5B6A63}
+header a{color:#127C78}
+main{flex:1;max-width:720px;width:100%;margin:0 auto;padding:12px 18px 30px;display:flex;flex-direction:column;align-items:center}
+.deck{position:relative;width:100%;max-width:560px;aspect-ratio:4/5;perspective:1400px;touch-action:pan-y}
+.card{position:absolute;inset:0;transition:transform .5s;transform-style:preserve-3d;cursor:pointer}
+.card.flip{transform:rotateY(180deg)}
+.face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;background:#fff;border:2px solid #DDD5C6;border-radius:24px;padding:34px 30px;display:flex;flex-direction:column}
+.back{transform:rotateY(180deg);background:#F1F8F6;border-color:#B9DCD4}
+.num{font:800 14px system-ui;color:#127C78;letter-spacing:.1em}
+.lvl{display:inline-block;margin-left:8px;font:700 11px system-ui;letter-spacing:.08em;text-transform:uppercase;color:#5B6A63;border:1.5px solid #C9D5CE;border-radius:20px;padding:2px 9px;vertical-align:middle}
+.t{font:800 34px/1.1 system-ui;margin:14px 0 14px}
+.d{font-size:21px;line-height:1.45}
+.hint{margin-top:auto;color:#8A948F;font-size:14px}
+.lab{font:700 12px system-ui;letter-spacing:.12em;text-transform:uppercase;color:#127C78;margin-bottom:10px}
+.ex{background:#fff;border:1.5px solid #C9D5CE;border-radius:14px;padding:16px 18px;font:italic 18px/1.5 Georgia,serif;white-space:pre-line}
+.why{margin-top:16px;font-size:17px;color:#3E4F47}
+.cover .t{font-size:40px}
+.cover .d b{background:#D7EFE9;padding:0 4px;border-radius:4px}
+nav{display:flex;align-items:center;gap:18px;margin-top:18px}
+nav button{font:700 16px system-ui;background:#127C78;color:#fff;border:0;border-radius:30px;padding:12px 22px;cursor:pointer}
+nav button:disabled{background:#C9D5CE;cursor:default}
+#count{font:700 15px system-ui;color:#5B6A63;min-width:60px;text-align:center}
+.dots{display:flex;gap:6px;margin-top:14px;flex-wrap:wrap;justify-content:center}
+.dots i{width:9px;height:9px;border-radius:50%;background:#DDD5C6}
+.dots i.on{background:#127C78}
+</style></head>
+<body>
+<header>
+<div class="k">Hecho en Osa · Week 4 · Bonus</div>
+<h1>Talk to AI like a pro</h1>
+<p>14 ways to write prompts. Tap a card to flip it. Swipe or use the arrows. · <a href="https://github.com/hechoenosa/zerotohero2026/tree/main/weeks/week-4">Back to Week 4</a></p>
+</header>
+<main>
+<div class="deck" id="deck"></div>
+<nav><button id="prev">← Back</button><span id="count"></span><button id="next">Next →</button></nav>
+<div class="dots" id="dots"></div>
+</main>
+<script>
+const cards=[
+ {cover:true,t:"What is a prompt?",d:"A prompt is your <b>instruction</b> to the AI. Clear instruction, clear result. Vague instruction, vague result.",ex:"Your PRD is the best prompt you’ll ever write.",why:"AI builds what you describe, not what you mean. These cards show you how to describe it."},
+ {t:"Just ask",lvl:"Start here",d:"Give one clear instruction. No examples.",ex:"Summarize my interview notes in 5 bullet points:\n[paste your notes]",why:"Great for simple jobs. Be specific: how many, how long, what for."},
+ {t:"Show examples",lvl:"Start here",d:"Give 2 or 3 examples first, so the AI copies the pattern.",ex:"Sunny → ☀️ Go surf\nRainy → 🌧️ Stay home\nWindy → ?",why:"When it’s easier to show than explain."},
+ {t:"Give it a role",lvl:"Start here",d:"Tell the AI who to be. It changes the tone and what it knows.",ex:"You are a friendly app designer who works with first-time builders. Look at my 3 designs and tell me what’s confusing.",why:"A role helps it answer like an expert, in the right voice."},
+ {t:"Set the rules",lvl:"Start here",d:"Say exactly what you want: length, tone, what to avoid, and what “done” looks like.",ex:"Explain what a database is in 100 words, for a 12-year-old. Use one example from a surf app. No hard words.",why:"Rules stop the AI from guessing."},
+ {t:"Choose the format",lvl:"Start here",d:"Say what shape the answer should take: a list, a table, steps, a file.",ex:"Rewrite my PRD with these headings: The problem · Who it’s for · User story · The one thing it does. Use markdown.",why:"You get something you can paste straight into PRD.md."},
+ {t:"Give it your documents",lvl:"Level up",d:"Paste or upload your own notes, and tell the AI to answer only from them.",ex:"Here are my 2 interviews. Using only these, what is the real problem? If it’s not in the notes, say “not in my notes”.",why:"It stops the AI from making things up. This is how NotebookLM works."},
+ {t:"One step at a time",lvl:"Level up",d:"Break a big job into small prompts. Each answer feeds the next one.",ex:"1. List the problems in my notes\n→ 2. Pick the biggest one\n→ 3. Write a user story for it",why:"Small steps give better results than one giant ask."},
+ {t:"Ask it to check itself",lvl:"Level up",d:"Ask the AI to find what’s wrong with its own answer, then fix it.",ex:"Here’s your answer: [answer]. What’s wrong or missing? Now write a better version.",why:"Second drafts are almost always better."},
+ {t:"Think step by step",lvl:"Level up",d:"Ask it to show its thinking before it answers.",ex:"Step by step: my app has 3 designs and each tap goes to the next one. How many taps to reach the result?",why:"Fewer silly mistakes on anything with logic or numbers."},
+ {t:"Think, then act",lvl:"Advanced",d:"The AI thinks, uses a tool (like search), looks at the result, then answers. Agents like Copilot Agent mode work this way.",ex:"Thought: I need today’s tide in Dominical.\nAction: search the tide\nResult: low tide at 6:40 am\nAnswer: …",why:"This is how AI agents build your app: think, do, check, repeat."},
+ {t:"Ask more than once",lvl:"Advanced",d:"Ask the same question a few times and trust the answer that keeps coming back.",ex:"Ask “What’s the one thing my app must do?” 3 times. Go with the answer it gives most.",why:"AI can give different answers each time. Repeats show what it’s sure about."},
+ {t:"Explore options",lvl:"Advanced",d:"Ask for several different ideas, have it compare them, then pick the best.",ex:"Give me 3 different ways to show the wave report on one screen. Compare them for a 13-year-old on a phone, then pick one.",why:"Better than taking the first idea it gives you."},
+ {t:"Easy parts first",lvl:"Advanced",d:"Ask what you need to know first, then solve each small part in order.",ex:"Before we build: what do we need to figure out first? List it. Now solve part 1.",why:"Hard problems get easier when you split them up."},
+ {t:"Let AI write your prompt",lvl:"Advanced",d:"Ask the AI to help you write a better prompt.",ex:"I want an AI to turn my notes into a PRD. Write me 3 prompts I could use, and say which is best.",why:"But you still decide. AI is not magic. You are."}
+];
+const deck=document.getElementById('deck'),dots=document.getElementById('dots');
+let i=0;
+function render(){
+ const c=cards[i];
+ const front=c.cover?`<div class="face front cover"><div class="num">START</div><div class="t">${c.t}</div><div class="d">${c.d}</div><div class="hint">Tap to flip →</div></div>`
+ :`<div class="face front"><div class="num">${i} / ${cards.length-1}<span class="lvl">${c.lvl}</span></div><div class="t">${c.t}</div><div class="d">${c.d}</div><div class="hint">Tap to see an example →</div></div>`;
+ deck.innerHTML=`<div class="card" id="card">${front}<div class="face back"><div class="lab">Try it</div><div class="ex">${c.ex}</div><div class="why">${c.why}</div><div class="hint">Tap to flip back</div></div></div>`;
+ document.getElementById('card').onclick=e=>e.currentTarget.classList.toggle('flip');
+ document.getElementById('count').textContent=i===0?'Start':i+' / '+(cards.length-1);
+ document.getElementById('prev').disabled=i===0;document.getElementById('next').disabled=i===cards.length-1;
+ dots.innerHTML=cards.map((_,k)=>`<i class="${k===i?'on':''}"></i>`).join('');
+}
+function go(d){i=Math.max(0,Math.min(cards.length-1,i+d));render()}
+document.getElementById('prev').onclick=()=>go(-1);document.getElementById('next').onclick=()=>go(1);
+document.addEventListener('keydown',e=>{if(e.key==='ArrowRight')go(1);if(e.key==='ArrowLeft')go(-1);if(e.key===' '){e.preventDefault();document.getElementById('card').classList.toggle('flip')}});
+let sx=null;deck.addEventListener('touchstart',e=>sx=e.touches[0].clientX,{passive:true});
+deck.addEventListener('touchend',e=>{if(sx===null)return;const dx=e.changedTouches[0].clientX-sx;if(Math.abs(dx)>50)go(dx<0?1:-1);sx=null});
+render();
+</script>
+</body></html>

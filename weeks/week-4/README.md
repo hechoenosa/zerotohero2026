@@ -22,8 +22,7 @@
 
 1. 🎬 [What Week 4 is about](https://drive.google.com/file/d/1jMXgsnOe548W3bYv9DmByZd-0nXt3rIc/view) (5 min): Anastasia · the double diamond, your PRD, AI is not magic, your 4 moves
 2. 🎬 [User story, user journey, draw like a designer](https://drive.google.com/file/d/1qZQnCz_RHcOGsvbyni6jEcvUKbNJkhJg/view) (5 min): Anastasia · one person, one need, one sentence
-3. 🎬 You are the architect · *coming soon*
-4. 🎬 Bonus: [AI advice from Alex](https://drive.google.com/file/d/1xDkpFl1AfghxSH20VoL9-4rLBn3meJww/view) (6 min): talk to your AI, give it context, always check what it gives you
+3. 🎬 Bonus: [AI advice from Alex](https://drive.google.com/file/d/1xDkpFl1AfghxSH20VoL9-4rLBn3meJww/view) (6 min): talk to your AI, give it context, always check what it gives you
 
 ## 🌱 STEP 2 · Write your user story 🧑
 

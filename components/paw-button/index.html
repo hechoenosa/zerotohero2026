@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Paw button · Hecho en Osa components</title>
+<style>
+  body { margin: 0; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; background: #F3EEE4; font-family: system-ui, sans-serif; color: #1E2A24; }
+  .stage { position: relative; width: min(420px, 100vw); height: 360px; overflow: hidden; display: flex; align-items: center; justify-content: center; }
+  #paw { cursor: pointer; transform-origin: 50% 85%; transition: transform .45s cubic-bezier(.3, 1.9, .5, 1); outline: none; touch-action: none; z-index: 1; }
+  #paw.down { transform: translateY(8px) scale(1.07, .88); transition: transform .07s ease-out; }
+  #paw:hover:not(.down) { transform: translateY(-4px) rotate(-2deg); }
+  #paw:focus-visible { outline: 3px solid #127C78; outline-offset: 6px; border-radius: 50%; }
+  .particle { position: absolute; left: 0; top: 0; pointer-events: none; z-index: 2; }
+  .controls { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; margin-top: 12px; }
+  .controls button { font: inherit; font-size: 14px; padding: 8px 14px; border-radius: 8px; border: 1px solid #DDD5C6; background: #FFFDF8; color: #1E2A24; cursor: pointer; }
+  .controls button.on { border-color: #127C78; color: #127C78; }
+  @media (prefers-reduced-motion: reduce) { #paw, #paw.down { transition: none; transform: none; } }
+</style>
+</head>
+<body>
+
+<div class="stage" id="stage">
+  <div id="paw" tabindex="0" role="button" aria-label="Meet the dogs"><canvas id="canvas"></canvas></div>
+</div>
+
+<div class="controls">
+  <button data-fx="ball" class="on">Tennis balls</button>
+  <button data-fx="bone">Bones</button>
+  <button data-fx="print">Paw prints</button>
+  <button id="sound" class="on">Sound on</button>
+</div>
+
+<script>
+// ---------- 1. Draw the paw (fur, then pads) ----------
+const W = 300, H = 270, dpr = window.devicePixelRatio || 1;
+const canvas = document.getElementById('canvas'), ctx = canvas.getContext('2d');
+canvas.width = W * dpr; canvas.height = H * dpr;
+canvas.style.width = W + 'px'; canvas.style.height = H + 'px';
+ctx.scale(dpr, dpr);
+
+// The paw shape is a few overlapping circles: palm, four toes, middle.
+const blobs = [
+  { x: 150, y: 178, r: 78 }, { x: 84, y: 112, r: 38 }, { x: 128, y: 74, r: 40 },
+  { x: 172, y: 74, r: 40 }, { x: 216, y: 112, r: 38 }, { x: 150, y: 120, r: 60 }
+];
+function inside(px, py) {
+  let best = null, depth = -1;
+  for (const b of blobs) {
+    const d = 1 - Math.hypot(px - b.x, py - b.y) / b.r;
+    if (d > depth) { depth = d; best = b; }
+  }
+  return depth > 0 ? { b: best, depth } : null;
+}
+
+// Dark undercoat
+ctx.fillStyle = '#4A2E17';
+for (const b of blobs) { ctx.beginPath(); ctx.arc(b.x, b.y, b.r - 4, 0, Math.PI * 2); ctx.fill(); }
+
+// Fur strands: point outward, longer at the edges, lit from the top left.
+// Change these three to get a black lab, a golden, a brindle...
+const FUR_DARK = [90, 55, 25], FUR_LIGHT = [220, 150, 80], STRANDS = 16000;
+function furColor(lit, alpha) {
+  const c = FUR_DARK.map((d, i) => Math.round(d + (FUR_LIGHT[i] - d) * lit));
+  return `rgba(${c[0]},${c[1]},${c[2]},${alpha})`;
+}
+for (let i = 0; i < STRANDS; i++) {
+  const px = 40 + Math.random() * 220, py = 25 + Math.random() * 245, hit = inside(px, py);
+  if (!hit) continue;
+  const angle = Math.atan2(py - hit.b.y, px - hit.b.x) + (Math.random() - .5) * .9;
+  const edge = hit.depth < .22, len = (edge ? 9 : 5) + Math.random() * (edge ? 11 : 6);
+  const nx = (px - 150) / 120, ny = (py - 150) / 120;
+  const lit = Math.max(0, Math.min(1, .55 + (-nx * .55 - ny * .83) * .6 + (Math.random() - .5) * .25));
+  ctx.strokeStyle = furColor(lit, .55 + Math.random() * .45);
+  ctx.lineWidth = .7 + Math.random() * .9;
+  const ex = px + Math.cos(angle) * len, ey = py + Math.sin(angle) * len, bend = (Math.random() - .5) * 5;
+  ctx.beginPath(); ctx.moveTo(px, py);
+  ctx.quadraticCurveTo((px + ex) / 2 + bend, (py + ey) / 2 - bend, ex, ey); ctx.stroke();
+}
+
+// Leathery pads: shaded gradient plus tiny bumps.
+function pad(shape, hx, hy, rad) {
+  ctx.save(); shape(); ctx.clip();
+  const g = ctx.createRadialGradient(hx, hy, 2, hx + 10, hy + 14, rad);
+  g.addColorStop(0, '#6B625B'); g.addColorStop(.45, '#38322E'); g.addColorStop(1, '#151312');
+  ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+  for (let i = 0; i < 900; i++) {
+    ctx.fillStyle = Math.random() < .5 ? 'rgba(255,255,255,.07)' : 'rgba(0,0,0,.22)';
+    ctx.beginPath();
+    ctx.arc(hx - rad + Math.random() * rad * 2.4, hy - rad + Math.random() * rad * 2.4, .6 + Math.random() * 1.3, 0, Math.PI * 2);
+    ctx.fill();
+  }
+  ctx.restore();
+  ctx.save(); shape(); ctx.strokeStyle = 'rgba(20,12,6,.7)'; ctx.lineWidth = 2; ctx.stroke(); ctx.restore();
+}
+pad(() => {
+  ctx.beginPath(); ctx.moveTo(150, 138);
+  ctx.bezierCurveTo(196, 136, 214, 186, 204, 206); ctx.bezierCurveTo(194, 226, 170, 214, 150, 220);
+  ctx.bezierCurveTo(130, 214, 106, 226, 96, 206); ctx.bezierCurveTo(86, 186, 104, 136, 150, 138);
+  ctx.closePath();
+}, 132, 158, 62);
+[[86, 116, 17, 22, -.35], [129, 80, 18, 24, -.12], [171, 80, 18, 24, .12], [214, 116, 17, 22, .35]]
+  .forEach(([x, y, rx, ry, rot]) => pad(() => { ctx.beginPath(); ctx.ellipse(x, y, rx, ry, rot, 0, Math.PI * 2); }, x - 6, y - 9, 26));
+
+// Short fluffy fur that spills over the pad edges
+for (let i = 0; i < 1400; i++) {
+  const px = 60 + Math.random() * 180, py = 50 + Math.random() * 190, hit = inside(px, py);
+  if (!hit || hit.depth < .05 || hit.depth > .3) continue;
+  const a = Math.atan2(py - hit.b.y, px - hit.b.x), len = 4 + Math.random() * 6;
+  ctx.strokeStyle = furColor(.6 + Math.random() * .3, .7); ctx.lineWidth = .8;
+  ctx.beginPath(); ctx.moveTo(px, py); ctx.lineTo(px + Math.cos(a) * len, py + Math.sin(a) * len); ctx.stroke();
+}
+
+// ---------- 2. Sound: a synthesized "boof" ----------
+// Tip: swap this for a real recorded bark: new Audio('bark.mp3').play()
+let audio, soundOn = true;
+function woof(t0, pitch) {
+  const osc = audio.createOscillator(), filter = audio.createBiquadFilter(), gain = audio.createGain();
+  osc.type = 'sawtooth';
+  osc.frequency.setValueAtTime(pitch * 1.6, t0);
+  osc.frequency.exponentialRampToValueAtTime(pitch * 1.9, t0 + .03);
+  osc.frequency.exponentialRampToValueAtTime(pitch * .7, t0 + .18);
+  filter.type = 'lowpass'; filter.Q.value = 4;
+  filter.frequency.setValueAtTime(1400, t0); filter.frequency.exponentialRampToValueAtTime(500, t0 + .18);
+  gain.gain.setValueAtTime(0, t0); gain.gain.linearRampToValueAtTime(.35, t0 + .015);
+  gain.gain.exponentialRampToValueAtTime(.001, t0 + .22);
+  const buf = audio.createBuffer(1, audio.sampleRate * .08, audio.sampleRate), data = buf.getChannelData(0);
+  for (let i = 0; i < data.length; i++) data[i] = (Math.random() * 2 - 1) * (1 - i / data.length);
+  const noise = audio.createBufferSource(), nFilter = audio.createBiquadFilter(), nGain = audio.createGain();
+  noise.buffer = buf; nFilter.type = 'bandpass'; nFilter.frequency.value = 900; nGain.gain.value = .25;
+  osc.connect(filter).connect(gain).connect(audio.destination);
+  noise.connect(nFilter).connect(nGain).connect(audio.destination);
+  osc.start(t0); osc.stop(t0 + .25); noise.start(t0);
+}
+function bark() {
+  if (!soundOn) return;
+  audio = audio || new (window.AudioContext || window.webkitAudioContext)();
+  const t = audio.currentTime, pitch = 170 + Math.random() * 30;
+  woof(t, pitch);
+  if (Math.random() < .5) woof(t + .2, pitch * 1.08);
+}
+
+// ---------- 3. Effects: tennis balls, bones, paw prints ----------
+const ICONS = {
+  ball: '<svg width="30" height="30" viewBox="0 0 30 30"><circle cx="15" cy="15" r="13" fill="#C9DC3A" stroke="#7E8C1E" stroke-width="1.5"/><path d="M5 7c6 4 6 12 0 16M25 7c-6 4-6 12 0 16" fill="none" stroke="#FFFDF0" stroke-width="2.2"/></svg>',
+  bone: '<svg width="40" height="20" viewBox="0 0 40 20"><path d="M9 4a4 4 0 1 0-3 7 4 4 0 1 0 3 7c2-1 4-3 6-3h10c2 0 4 2 6 3a4 4 0 1 0 3-7 4 4 0 1 0-3-7c-2 1-4 3-6 3H15c-2 0-4-2-6-3z" fill="#F1E6CF" stroke="#A88E62" stroke-width="1.5"/></svg>',
+  print: '<svg width="26" height="26" viewBox="0 0 26 26" fill="#5A3A1E"><ellipse cx="13" cy="17" rx="7" ry="6"/><ellipse cx="5" cy="10" rx="2.6" ry="3.4"/><ellipse cx="10" cy="5.5" rx="2.6" ry="3.4"/><ellipse cx="16" cy="5.5" rx="2.6" ry="3.4"/><ellipse cx="21" cy="10" rx="2.6" ry="3.4"/></svg>'
+};
+let effect = 'ball', particles = [], frame = null;
+const paw = document.getElementById('paw'), stage = document.getElementById('stage');
+const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+function burst() {
+  if (reduceMotion) return;
+  const s = stage.getBoundingClientRect(), p = paw.getBoundingClientRect();
+  const cx = p.left - s.left + p.width / 2, cy = p.top - s.top + p.height * .45;
+  const count = effect === 'print' ? 7 : 9;
+  for (let i = 0; i < count; i++) {
+    const el = document.createElement('div');
+    el.className = 'particle'; el.innerHTML = ICONS[effect]; stage.appendChild(el);
+    const angle = -Math.PI / 2 + (Math.random() - .5) * 2.2;
+    const speed = effect === 'print' ? 3 + Math.random() * 2 : 6 + Math.random() * 4;
+    particles.push({
+      el, x: cx, y: cy, vx: Math.cos(angle) * speed, vy: Math.sin(angle) * speed,
+      rot: Math.random() * 360, spin: (Math.random() - .5) * 14, age: 0,
+      gravity: effect === 'print' ? 0 : .32, bounces: effect === 'ball'
+    });
+  }
+  if (!frame) frame = requestAnimationFrame(tick);
+}
+function tick() {
+  const floor = stage.clientHeight - 18;
+  particles = particles.filter(q => {
+    q.age++; q.vy += q.gravity; q.x += q.vx; q.y += q.vy; q.rot += q.spin;
+    if (q.bounces && q.y > floor) { q.y = floor; q.vy *= -.62; q.vx *= .85; }
+    const opacity = Math.max(0, 1 - Math.max(0, q.age - 45) / 30);
+    q.el.style.opacity = opacity;
+    q.el.style.transform = `translate(${q.x - 15}px, ${q.y - 15}px) rotate(${q.rot}deg)`;
+    if (opacity <= 0) { q.el.remove(); return false; }
+    return true;
+  });
+  frame = particles.length ? requestAnimationFrame(tick) : null;
+}
+
+// ---------- 4. Press, release, keyboard ----------
+function press() { paw.classList.add('down'); }
+function release() {
+  if (!paw.classList.contains('down')) return;
+  paw.classList.remove('down');
+  bark(); burst();
+  paw.dispatchEvent(new CustomEvent('paw', { bubbles: true }));  // hook: open the animals list, a donation, etc.
+}
+paw.addEventListener('pointerdown', press);
+window.addEventListener('pointerup', release);
+paw.addEventListener('keydown', e => {
+  if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); press(); setTimeout(release, 110); }
+});
+
+// Demo controls
+document.querySelectorAll('[data-fx]').forEach(btn => btn.onclick = () => {
+  effect = btn.dataset.fx;
+  document.querySelectorAll('[data-fx]').forEach(o => o.classList.toggle('on', o === btn));
+});
+const soundBtn = document.getElementById('sound');
+soundBtn.onclick = () => {
+  soundOn = !soundOn;
+  soundBtn.classList.toggle('on', soundOn);
+  soundBtn.textContent = soundOn ? 'Sound on' : 'Sound off';
+};
+</script>
+</body>
+</html>

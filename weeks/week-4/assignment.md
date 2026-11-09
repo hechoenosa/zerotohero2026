@@ -89,7 +89,7 @@ Read it, then add one sentence to your PRD.md: what **you** will decide, not the
 
 ## ⭐ Bonus
 
-![Get ready for the TRD: 8 questions about database, login, deploy, AI, API, device, payments and safety](images/bonus-get-ready-for-the-trd-v2.png)
+![Get ready for the TRD: 8 questions about database, login, deploy, AI, API, device, money, payments and safety](images/bonus-get-ready-for-the-trd-v3.png)
 
 ![Polish your PRD with AI: a prompt with ROLE, ME, GOAL, LESSON, MY NOTES, ASK, WRITE, CHECK and TEACH](images/bonus-polish-your-prd-with-ai-v2.png)
 

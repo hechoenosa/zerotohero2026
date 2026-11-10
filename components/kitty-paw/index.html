@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kitty paw · Hecho en Osa components</title>
+<style>
+  body { margin: 0; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; background: #FFF4F8; font-family: system-ui, sans-serif; color: #3A1027; }
+  .stage { position: relative; width: min(420px, 100vw); height: 360px; overflow: hidden; display: flex; align-items: center; justify-content: center; }
+  #paw { position: relative; cursor: pointer; transform-origin: 50% 85%; transition: transform .45s cubic-bezier(.3, 1.9, .5, 1); outline: none; touch-action: none; z-index: 1; }
+  #paw.down { transform: translateY(8px) scale(1.1, .85); transition: transform .07s ease-out; }
+  #paw:hover:not(.down) { transform: translateY(-5px) rotate(3deg); }
+  #paw.jelly { animation: jelly .6s ease-out; }
+  #paw:focus-visible { outline: 3px solid #E0357F; outline-offset: 6px; border-radius: 50%; }
+  @keyframes jelly { 0% { transform: scale(1.1, .85); } 30% { transform: scale(.9, 1.12); } 50% { transform: scale(1.06, .95); } 70% { transform: scale(.97, 1.03); } 100% { transform: scale(1); } }
+  #claws { position: absolute; left: 0; top: 0; pointer-events: none; }
+  #claws path { transform-box: fill-box; transform-origin: 50% 100%; transform: scaleY(0); transition: transform .12s ease-out; }
+  #paw.down #claws path { transform: scaleY(1); }
+  .particle { position: absolute; left: 0; top: 0; pointer-events: none; z-index: 2; }
+  .controls { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; margin-top: 12px; }
+  .controls button { font: inherit; font-size: 14px; padding: 8px 14px; border-radius: 8px; border: 1px solid #F5C4DA; background: #FFFFFF; color: #3A1027; cursor: pointer; }
+  .controls button.on { border-color: #E0357F; color: #C0206A; }
+  @media (prefers-reduced-motion: reduce) { #paw, #paw.down, #paw.jelly { transition: none; animation: none; transform: none; } }
+</style>
+</head>
+<body>
+
+<div class="stage" id="stage">
+  <div id="paw" tabindex="0" role="button" aria-label="Meet the cats">
+    <canvas id="canvas"></canvas>
+    <svg id="claws" width="300" height="300" viewBox="0 0 300 300" aria-hidden="true">
+      <path d="M86 84 q-6 -16 4 -24 q-1 12 4 22z" fill="#FFF8FB" stroke="#C99AB0" stroke-width="1"/>
+      <path d="M126 54 q-4 -18 7 -24 q-2 13 2 23z" fill="#FFF8FB" stroke="#C99AB0" stroke-width="1"/>
+      <path d="M166 54 q4 -18 -7 -24 q2 13 -2 23z" fill="#FFF8FB" stroke="#C99AB0" stroke-width="1"/>
+      <path d="M206 84 q6 -16 -4 -24 q1 12 -4 22z" fill="#FFF8FB" stroke="#C99AB0" stroke-width="1"/>
+    </svg>
+  </div>
+</div>
+
+<div class="controls">
+  <button data-fx="ball" class="on">Tennis balls</button>
+  <button data-fx="yarn">Yarn</button>
+  <button data-fx="fish">Fish</button>
+  <button id="sound" class="on">Sound on</button>
+</div>
+
+<script>
+// ---------- 1. Draw the paw (fluffy pink fur, then beans) ----------
+const W = 300, H = 300, dpr = window.devicePixelRatio || 1;
+const canvas = document.getElementById('canvas'), ctx = canvas.getContext('2d');
+canvas.width = W * dpr; canvas.height = H * dpr;
+canvas.style.width = W + 'px'; canvas.style.height = H + 'px';
+ctx.scale(dpr, dpr);
+
+// A kitty paw is rounder than a dog's: a big palm and four little toes.
+const blobs = [
+  { x: 150, y: 178, r: 72 }, { x: 90, y: 118, r: 32 }, { x: 130, y: 86, r: 34 },
+  { x: 170, y: 86, r: 34 }, { x: 210, y: 118, r: 32 }, { x: 150, y: 132, r: 54 }
+];
+function inside(px, py) {
+  let best = null, depth = -1;
+  for (const b of blobs) {
+    const d = 1 - Math.hypot(px - b.x, py - b.y) / b.r;
+    if (d > depth) { depth = d; best = b; }
+  }
+  return depth > 0 ? { b: best, depth } : null;
+}
+
+// Change these to recolour the fur. Longer EDGE_FLUFF = fuzzier.
+const FUR_DARK = [235, 16, 128], FUR_LIGHT = [255, 150, 212], STRANDS = 18000, EDGE_FLUFF = 20;
+function furColor(lit, alpha) {
+  const c = FUR_DARK.map((d, i) => Math.round(d + (FUR_LIGHT[i] - d) * lit));
+  return `rgba(${c[0]},${c[1]},${c[2]},${alpha})`;
+}
+
+ctx.fillStyle = 'rgb(214, 10, 116)';
+for (const b of blobs) { ctx.beginPath(); ctx.arc(b.x, b.y, b.r - 4, 0, Math.PI * 2); ctx.fill(); }
+
+for (let i = 0; i < STRANDS; i++) {
+  const px = 30 + Math.random() * 240, py = 30 + Math.random() * 265, hit = inside(px, py);
+  if (!hit) continue;
+  const angle = Math.atan2(py - hit.b.y, px - hit.b.x) + (Math.random() - .5) * 1.2;
+  const edge = hit.depth < .25, len = (edge ? 10 : 5) + Math.random() * (edge ? EDGE_FLUFF : 7);
+  const nx = (px - 150) / 120, ny = (py - 150) / 120;
+  const lit = Math.max(0, Math.min(1, .6 + (-nx * .55 - ny * .83) * .55 + (Math.random() - .5) * .3));
+  ctx.strokeStyle = furColor(lit, .5 + Math.random() * .5);
+  ctx.lineWidth = .6 + Math.random() * .9;
+  const ex = px + Math.cos(angle) * len, ey = py + Math.sin(angle) * len, curl = (Math.random() - .5) * 10;
+  ctx.beginPath(); ctx.moveTo(px, py);
+  ctx.quadraticCurveTo((px + ex) / 2 + curl, (py + ey) / 2 - curl, ex, ey); ctx.stroke();
+}
+
+// Shiny squishy beans
+function bean(shape, hx, hy, rad) {
+  ctx.save(); shape(); ctx.clip();
+  const g = ctx.createRadialGradient(hx, hy, 2, hx + 8, hy + 12, rad);
+  g.addColorStop(0, '#FFC2DD'); g.addColorStop(.4, '#E84A8E'); g.addColorStop(1, '#8E1250');
+  ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+  ctx.fillStyle = 'rgba(255,255,255,.55)';
+  ctx.beginPath(); ctx.ellipse(hx, hy, rad * .22, rad * .12, -.5, 0, Math.PI * 2); ctx.fill();
+  ctx.restore();
+  ctx.save(); shape(); ctx.strokeStyle = 'rgba(110,10,60,.6)'; ctx.lineWidth = 2; ctx.stroke(); ctx.restore();
+}
+// Palm bean has three soft bumps at the bottom, like a real cat's
+bean(() => {
+  ctx.beginPath(); ctx.moveTo(150, 146);
+  ctx.bezierCurveTo(186, 144, 204, 176, 200, 198);
+  ctx.bezierCurveTo(198, 214, 182, 218, 174, 210);
+  ctx.bezierCurveTo(166, 222, 134, 222, 126, 210);
+  ctx.bezierCurveTo(118, 218, 102, 214, 100, 198);
+  ctx.bezierCurveTo(96, 176, 114, 144, 150, 146);
+  ctx.closePath();
+}, 134, 164, 58);
+[[92, 120, 16, 19, -.3], [131, 90, 17, 20, -.1], [169, 90, 17, 20, .1], [208, 120, 16, 19, .3]]
+  .forEach(([x, y, rx, ry, rot]) => bean(() => { ctx.beginPath(); ctx.ellipse(x, y, rx, ry, rot, 0, Math.PI * 2); }, x - 5, y - 7, 22));
+
+// Fluff spilling over the bean edges
+for (let i = 0; i < 1600; i++) {
+  const px = 60 + Math.random() * 180, py = 60 + Math.random() * 180, hit = inside(px, py);
+  if (!hit || hit.depth < .05 || hit.depth > .32) continue;
+  const a = Math.atan2(py - hit.b.y, px - hit.b.x), len = 4 + Math.random() * 7;
+  ctx.strokeStyle = furColor(.65 + Math.random() * .3, .75); ctx.lineWidth = .8;
+  ctx.beginPath(); ctx.moveTo(px, py); ctx.lineTo(px + Math.cos(a) * len, py + Math.sin(a) * len); ctx.stroke();
+}
+
+// ---------- 2. Sound: a synthesized "mrrreow" ----------
+// Tip: swap for a real recording: new Audio('meow.mp3').play()
+let audio, soundOn = true;
+function meow() {
+  if (!soundOn) return;
+  audio = audio || new (window.AudioContext || window.webkitAudioContext)();
+  const t = audio.currentTime, base = 520 + Math.random() * 120, dur = .55 + Math.random() * .2;
+  const osc = audio.createOscillator(), vib = audio.createOscillator(), vibGain = audio.createGain();
+  const filter = audio.createBiquadFilter(), gain = audio.createGain();
+  osc.type = 'sawtooth';
+  osc.frequency.setValueAtTime(base * .8, t);
+  osc.frequency.linearRampToValueAtTime(base * 1.5, t + dur * .35);
+  osc.frequency.linearRampToValueAtTime(base * .9, t + dur);
+  vib.frequency.value = 7; vibGain.gain.value = 12;
+  vib.connect(vibGain).connect(osc.frequency);
+  filter.type = 'bandpass'; filter.Q.value = 3;
+  filter.frequency.setValueAtTime(500, t);
+  filter.frequency.linearRampToValueAtTime(2200, t + dur * .4);
+  filter.frequency.linearRampToValueAtTime(900, t + dur);
+  gain.gain.setValueAtTime(0, t);
+  gain.gain.linearRampToValueAtTime(.4, t + .06);
+  gain.gain.setValueAtTime(.4, t + dur * .6);
+  gain.gain.exponentialRampToValueAtTime(.001, t + dur);
+  osc.connect(filter).connect(gain).connect(audio.destination);
+  osc.start(t); vib.start(t); osc.stop(t + dur); vib.stop(t + dur);
+}
+
+// ---------- 3. Effects: tennis balls, yarn, fish ----------
+const ICONS = {
+  ball: '<svg width="30" height="30" viewBox="0 0 30 30"><circle cx="15" cy="15" r="13" fill="#C9DC3A" stroke="#7E8C1E" stroke-width="1.5"/><path d="M5 7c6 4 6 12 0 16M25 7c-6 4-6 12 0 16" fill="none" stroke="#FFFDF0" stroke-width="2.2"/></svg>',
+  yarn: '<svg width="32" height="32" viewBox="0 0 32 32"><circle cx="15" cy="15" r="12" fill="#FF6FB1" stroke="#B0246A" stroke-width="1.5"/><path d="M5 11c7 1 14 6 18 14M8 6c6 3 12 9 14 18M12 3c5 5 10 12 10 22M4 18c6 0 12 3 15 8" fill="none" stroke="#B0246A" stroke-width="1.2"/><path d="M25 22c4 2 5 5 3 8" fill="none" stroke="#B0246A" stroke-width="1.5"/></svg>',
+  fish: '<svg width="38" height="22" viewBox="0 0 38 22"><path d="M3 11c5-8 17-9 24 0-7 9-19 8-24 0z" fill="#7FC8E8" stroke="#2C6F8E" stroke-width="1.5"/><path d="M27 11l9-7v14z" fill="#7FC8E8" stroke="#2C6F8E" stroke-width="1.5"/><circle cx="9" cy="9" r="1.6" fill="#1E2A24"/></svg>'
+};
+let effect = 'ball', particles = [], frame = null;
+const paw = document.getElementById('paw'), stage = document.getElementById('stage');
+const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+function burst() {
+  if (reduceMotion) return;
+  const s = stage.getBoundingClientRect(), p = paw.getBoundingClientRect();
+  const cx = p.left - s.left + p.width / 2, cy = p.top - s.top + p.height * .45;
+  for (let i = 0; i < 9; i++) {
+    const el = document.createElement('div');
+    el.className = 'particle'; el.innerHTML = ICONS[effect]; stage.appendChild(el);
+    const angle = -Math.PI / 2 + (Math.random() - .5) * 2.2, speed = 6 + Math.random() * 4;
+    particles.push({
+      el, x: cx, y: cy, vx: Math.cos(angle) * speed, vy: Math.sin(angle) * speed,
+      rot: Math.random() * 360, spin: (Math.random() - .5) * 14, age: 0,
+      gravity: .32, bounces: effect !== 'fish'
+    });
+  }
+  if (!frame) frame = requestAnimationFrame(tick);
+}
+function tick() {
+  const floor = stage.clientHeight - 18;
+  particles = particles.filter(q => {
+    q.age++; q.vy += q.gravity; q.x += q.vx; q.y += q.vy; q.rot += q.spin;
+    if (q.bounces && q.y > floor) { q.y = floor; q.vy *= -.62; q.vx *= .85; }
+    const opacity = Math.max(0, 1 - Math.max(0, q.age - 45) / 30);
+    q.el.style.opacity = opacity;
+    q.el.style.transform = `translate(${q.x - 15}px, ${q.y - 15}px) rotate(${q.rot}deg)`;
+    if (opacity <= 0) { q.el.remove(); return false; }
+    return true;
+  });
+  frame = particles.length ? requestAnimationFrame(tick) : null;
+}
+
+// ---------- 4. Press (claws come out!), release (jelly wobble) ----------
+function press() { paw.classList.remove('jelly'); paw.classList.add('down'); }
+function release() {
+  if (!paw.classList.contains('down')) return;
+  paw.classList.remove('down');
+  void paw.offsetWidth;
+  paw.classList.add('jelly');
+  meow(); burst();
+  paw.dispatchEvent(new CustomEvent('paw', { bubbles: true }));  // hook: open the cats list, a donation, etc.
+}
+paw.addEventListener('animationend', () => paw.classList.remove('jelly'));
+paw.addEventListener('pointerdown', press);
+window.addEventListener('pointerup', release);
+paw.addEventListener('keydown', e => {
+  if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); press(); setTimeout(release, 140); }
+});
+
+// Demo controls
+document.querySelectorAll('[data-fx]').forEach(btn => btn.onclick = () => {
+  effect = btn.dataset.fx;
+  document.querySelectorAll('[data-fx]').forEach(o => o.classList.toggle('on', o === btn));
+});
+const soundBtn = document.getElementById('sound');
+soundBtn.onclick = () => {
+  soundOn = !soundOn;
+  soundBtn.classList.toggle('on', soundOn);
+  soundBtn.textContent = soundOn ? 'Sound on' : 'Sound off';
+};
+</script>
+</body>
+</html>

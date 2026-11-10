@@ -5,6 +5,7 @@ Small pieces any Builder can copy into their project. Each one lives in its own 
 | Component | What it does | Live demo |
 |---|---|---|
 | [Paw button](paw-button/) | Furry dog paw that squashes, barks, and throws tennis balls or bones | [Try it](https://hechoenosa.github.io/zerotohero2026/components/paw-button/) |
+| [Kitty paw](kitty-paw/) | Bright pink fuzzy kitty paw: claws pop out, it meows and wobbles | [Try it](https://hechoenosa.github.io/zerotohero2026/components/kitty-paw/) |
 
 ## Add a component
 

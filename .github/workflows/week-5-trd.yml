@@ -1,0 +1,75 @@
+name: Week 5 · Reply with TRD.md
+on:
+  issues:
+    types: [opened, edited]
+permissions:
+  issues: write
+  contents: read
+jobs:
+  trd:
+    if: contains(github.event.issue.labels.*.name, 'week-5')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const body = context.payload.issue.body || '';
+            // Issue forms post "### Label" followed by the answer
+            const parts = {};
+            for (const block of body.split(/^### /m).slice(1)) {
+              const nl = block.indexOf('\n');
+              const label = block.slice(0, nl).trim();
+              let val = block.slice(nl + 1).trim();
+              if (val === '_No response_') val = '';
+              parts[label] = val;
+            }
+            const get = (start) => { const k = Object.keys(parts).find(l => l.startsWith(start)); return k ? parts[k] : ''; };
+            const cap = (s) => s ? s.charAt(0).toUpperCase() + s.slice(1) : s;
+
+            const name = get('My project name') || 'My project';
+            const items = [
+              ['Save data', get('1 · Save data'), get('What does it save?')],
+              ['Deployed globally', get('2 · Deployed globally'), get('Where will it live?')],
+              ['Accounts and login', get('4 · Accounts and login'), ''],
+              ['Payments', get('5 · Payments'), get('How will people pay?')],
+              ['AI inside', get('6 · AI inside'), get('What will the AI do?')],
+              ['API', get('7 · API'), get('What info does it need?')],
+            ];
+            const line = ([what, , detail]) => `- ${what}` + (detail && detail !== 'Not sure yet' ? `: ${cap(detail)}` : '');
+            const group = (pick) => items.filter(i => i[1] === pick).map(line);
+            const must = group('Must have for MVP'), nice = group('Nice to have'), not = group('Not needed');
+            const sketch = get('10 · My system design');
+
+            const trd = [
+              `# TRD · ${name}`, '',
+              '## Must have (MVP)', ...(must.length ? must : ['- (Nothing yet)']), '',
+              '## Nice to have', ...(nice.length ? nice : ['- (Nothing yet)']), '',
+              '## Not needed', ...(not.length ? not : ['- (Nothing)']), '',
+              '## App or website', cap(get('3 · App or website')), '',
+              '## AI tool', get('8 · The AI tool') , '',
+              '## Hardest part', cap(get('9 · The hardest part')), '',
+              ...(sketch ? ['## System design', sketch, ''] : []),
+            ].join('\n');
+
+            // Find the builder's repo and its main branch
+            const repoText = get('Link to my repo');
+            const m = repoText.match(/github\.com\/([A-Za-z0-9-]+)\/([A-Za-z0-9._-]+)/);
+            let button = '';
+            if (m) {
+              const owner = m[1], repo = m[2].replace(/\.git$/, '');
+              let branch = 'main';
+              try { branch = (await github.rest.repos.get({ owner, repo })).data.default_branch; } catch (e) {}
+              const url = `https://github.com/${owner}/${repo}/new/${branch}?filename=TRD.md&value=${encodeURIComponent(trd).replace(/\(/g, "%28").replace(/\)/g, "%29")}`;
+              button = `### 👉 [Create TRD.md in your repo](${url})\n\nIt opens **${owner}/${repo}** with your TRD.md already written. Check it, then press the green **Commit changes** button.`;
+            } else {
+              button = `⚠️ I couldn't read your repo link. Edit your form with a link like \`https://github.com/your-handle/your-project\`, or add the file yourself: Add file → Create new file → name it TRD.md → paste the text below → Commit changes.`;
+            }
+
+            const msg = [
+              `Here's your TRD, @${context.payload.issue.user.login}! 🎉`, '',
+              button, '',
+              '<details><summary>Your TRD.md (to copy, if the button doesn’t work)</summary>', '',
+              '```markdown', trd, '```', '</details>', '',
+              'Changed an answer? Edit your form and you’ll get a fresh reply.',
+            ].join('\n');
+            await github.rest.issues.createComment({ ...context.repo, issue_number: context.payload.issue.number, body: msg });

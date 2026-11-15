@@ -1,0 +1,127 @@
+name: "🛠️ Week 5 · Your TRD → TRD.md"
+description: Answer the TRD questions and get your TRD.md back. About 10 minutes.
+title: "Week 5: "
+labels: ["week-5"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Title:** Write your handle after `Week 5: `, like `Week 5: ojochal-builds`. Spanish is fine. *Puedes escribir en español.*
+
+        **How it works:** Answer the questions and press **Submit**. A minute later you get a reply with your **TRD.md** and a button that opens your repo with the file already written. Then press **Commit changes**.
+
+        For each part, pick: **Must have for MVP** (your first version needs it), **Nice to have** (later), or **Not needed**.
+  - type: input
+    id: name
+    attributes:
+      label: "My project name 🏷️"
+      placeholder: bird-spotter
+    validations:
+      required: true
+  - type: input
+    id: repo
+    attributes:
+      label: "Link to my repo 📁"
+      description: "Your repo must be public, so the button can open it."
+      placeholder: https://github.com/your-handle/your-project
+    validations:
+      required: true
+  - type: dropdown
+    id: data
+    attributes:
+      label: "1 · Save data"
+      description: "Does it remember anything after you close it? Names, scores, photos?"
+      options: ["Must have for MVP", "Nice to have", "Not needed"]
+    validations:
+      required: true
+  - type: input
+    id: data-what
+    attributes:
+      label: "What does it save?"
+      placeholder: "My bird sightings"
+  - type: dropdown
+    id: deploy
+    attributes:
+      label: "2 · Deployed globally"
+      description: "Can anyone open it from a link, anywhere?"
+      options: ["Must have for MVP", "Nice to have", "Not needed"]
+    validations:
+      required: true
+  - type: dropdown
+    id: deploy-where
+    attributes:
+      label: "Where will it live?"
+      options: ["GitHub Pages", "Netlify", "Vercel", "Lovable", "Not sure yet"]
+  - type: dropdown
+    id: appweb
+    attributes:
+      label: "3 · App or website"
+      options: ["Website", "App", "Not sure yet"]
+    validations:
+      required: true
+  - type: dropdown
+    id: login
+    attributes:
+      label: "4 · Accounts and login"
+      description: "Does each person need their own account?"
+      options: ["Must have for MVP", "Nice to have", "Not needed"]
+    validations:
+      required: true
+  - type: dropdown
+    id: pay
+    attributes:
+      label: "5 · Payments"
+      description: "Will people pay inside it?"
+      options: ["Must have for MVP", "Nice to have", "Not needed"]
+    validations:
+      required: true
+  - type: dropdown
+    id: pay-how
+    attributes:
+      label: "How will people pay?"
+      options: ["Bitcoin Jungle wallet", "SINPE Móvil QR code", "Venmo QR code", "Not sure yet"]
+  - type: dropdown
+    id: ai
+    attributes:
+      label: "6 · AI inside"
+      description: "Is there AI inside your product?"
+      options: ["Must have for MVP", "Nice to have", "Not needed"]
+    validations:
+      required: true
+  - type: input
+    id: ai-what
+    attributes:
+      label: "What will the AI do?"
+      placeholder: "Names the bird from a photo"
+  - type: dropdown
+    id: api
+    attributes:
+      label: "7 · API"
+      description: "Does it need live info from another service, like weather, tides or maps?"
+      options: ["Must have for MVP", "Nice to have", "Not needed"]
+    validations:
+      required: true
+  - type: input
+    id: api-what
+    attributes:
+      label: "What info does it need?"
+      placeholder: "Tides for Uvita"
+  - type: dropdown
+    id: tool
+    attributes:
+      label: "8 · The AI tool I'll build with 🤖"
+      options: ["GitHub Copilot", "Lovable", "ChatGPT", "Other", "Not picked yet"]
+    validations:
+      required: true
+  - type: textarea
+    id: hardest
+    attributes:
+      label: "9 · The hardest part"
+      description: "What's the one thing you're not sure how to build?"
+    validations:
+      required: true
+  - type: textarea
+    id: sketch
+    attributes:
+      label: "10 · My system design (optional)"
+      description: "Paste a photo of your sketch: Your boxes and how they connect."

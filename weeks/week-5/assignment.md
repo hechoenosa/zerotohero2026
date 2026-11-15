@@ -2,7 +2,7 @@
 
 # Week 5 · Your TRD → TRD.md
 
-### 🔴 Due: Sunday 22 November, 8 pm · Bring your TRD.md to the Vibe Jam on Saturday
+### 🔴 Due: Friday 20 November, 8 pm · So your TRD.md is ready for the Vibe Jam
 
 **Quick links:** [🎬 All videos](https://hechoenosa.github.io/zerotohero2026/weeks/week-5/) · [📝 Week 5 form](https://hechoenosa.github.io/zerotohero2026/forms/week-5.html) · [📈 Pro weekly update](https://hechoenosa.github.io/zerotohero2026/forms/pro-update.html) · [🤖 Master prompt](#-master-prompt) · [🎉 Vibe Jam](#-vibe-jam) · [🆘 Stuck?](https://github.com/hechoenosa/zerotohero2026/blob/main/STUCK.md)
 

@@ -23,7 +23,7 @@
 1. 🎬 [What Week 5 is about](https://drive.google.com/file/d/1may9IsFqqqmQLBfiBSSoDCGFbozK-XKC/view) (5 min): Anastasia · where we are, your TRD, what happens at the Vibe Jam
 2. 🎬 [Your TRD](https://drive.google.com/file/d/1h4r0641HxtEcc22lM9K40wgb7h9CvtCF/view) (7 min): System design, files, and the questions your TRD answers
 3. 🎬 [AI is not magic. You are.](https://drive.google.com/file/d/1fVGSyG9hhH8vWEyshATMYWncd22StfIE/view) (8 min): How AI works, where it goes wrong, and how you stay the boss
-4. 🎬 Suggested: [The centipede and the fox](https://drive.google.com/file/d/1Q7cwLjY9lXTjpdw6AsDVs_ymRi-3ScJJ/view) (3 min): A story from Zamir about clarity, your goal, and just starting
+4. 🎬 A story from Zamir: [The centipede and the fox](https://drive.google.com/file/d/1Q7cwLjY9lXTjpdw6AsDVs_ymRi-3ScJJ/view) (3 min): Clarity, your goal, and just starting
 
 ## 🌱 STEP 2 · Fill in the Week 5 form 📝
 

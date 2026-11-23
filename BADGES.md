@@ -30,7 +30,7 @@ Physical builds count too: for **Shipped**, a README with photos of your build i
 
 | Builder | Badges |
 |---|---|
-| [@middleloaf](https://github.com/middleloaf) | 🏅 Full Builder |
+| [@middleloaf](https://github.com/middleloaf) | 🏅 Full Builder · 🎶 Vibe Jammer |
 | [@osa-developer](https://github.com/osa-developer) | 🏅 Full Builder · 🎶 Vibe Jammer |
 | [@adam-creates-osa](https://github.com/adam-creates-osa) | 🏅 Full Builder · 🎶 Vibe Jammer |
 | [@ariel4685](https://github.com/ariel4685) | 🏅 Full Builder |

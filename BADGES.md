@@ -40,6 +40,8 @@ Physical builds count too: for **Shipped**, a README with photos of your build i
 | [@MeiLambert04](https://github.com/MeiLambert04) | 🎶 Vibe Jammer |
 | [@islapaige](https://github.com/islapaige) | 🎶 Vibe Jammer |
 | [@elle2012](https://github.com/elle2012) | 🎶 Vibe Jammer |
+| [@arilikesbikes](https://github.com/arilikesbikes) | 🎶 Vibe Jammer |
+| [@butter55573](https://github.com/butter55573) | 🎶 Vibe Jammer |
 
 *Mentors: add a row when you award a badge.*
 

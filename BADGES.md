@@ -31,9 +31,13 @@ Physical builds count too: for **Shipped**, a README with photos of your build i
 | Builder | Badges |
 |---|---|
 | [@middleloaf](https://github.com/middleloaf) | 🏅 Full Builder |
-| [@osa-developer](https://github.com/osa-developer) | 🏅 Full Builder |
-| [@adam-creates-osa](https://github.com/adam-creates-osa) | 🏅 Full Builder |
+| [@osa-developer](https://github.com/osa-developer) | 🏅 Full Builder · 🎶 Vibe Jammer |
+| [@adam-creates-osa](https://github.com/adam-creates-osa) | 🏅 Full Builder · 🎶 Vibe Jammer |
 | [@ariel4685](https://github.com/ariel4685) | 🏅 Full Builder |
+| [@adrianshreds](https://github.com/adrianshreds) | 🎶 Vibe Jammer |
+| [@EliseyIvchenkov](https://github.com/EliseyIvchenkov) | 🎶 Vibe Jammer |
+| [@EK113-Rose](https://github.com/EK113-Rose) | 🎶 Vibe Jammer |
+| [@MeiLambert04](https://github.com/MeiLambert04) | 🎶 Vibe Jammer |
 
 *Mentors: add a row when you award a badge.*
 
